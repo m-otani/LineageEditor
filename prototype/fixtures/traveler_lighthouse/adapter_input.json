@@ -1,0 +1,53 @@
+{
+  "format_version": "0.1",
+  "entries": [
+    {
+      "route_id": "route-a",
+      "line_id": "line-01",
+      "sequence_index": 1,
+      "prompt_artifact_id": "artifact-prompt-line-01"
+    },
+    {
+      "route_id": "route-a",
+      "line_id": "line-02",
+      "sequence_index": 2,
+      "prompt_artifact_id": "artifact-prompt-line-02"
+    },
+    {
+      "route_id": "route-a",
+      "line_id": "line-03",
+      "sequence_index": 3,
+      "prompt_artifact_id": "artifact-prompt-line-03"
+    },
+    {
+      "route_id": "route-a",
+      "line_id": "line-04",
+      "sequence_index": 4,
+      "prompt_artifact_id": "artifact-prompt-line-04"
+    },
+    {
+      "route_id": "route-a",
+      "line_id": "line-05",
+      "sequence_index": 5,
+      "prompt_artifact_id": "artifact-prompt-line-05"
+    },
+    {
+      "route_id": "route-a",
+      "line_id": "line-06",
+      "sequence_index": 6,
+      "prompt_artifact_id": "artifact-prompt-line-06"
+    },
+    {
+      "route_id": "route-b",
+      "line_id": "branch-b1",
+      "sequence_index": 1,
+      "prompt_artifact_id": "artifact-prompt-branch-b1"
+    },
+    {
+      "route_id": "route-b",
+      "line_id": "branch-b2",
+      "sequence_index": 2,
+      "prompt_artifact_id": "artifact-prompt-branch-b2"
+    }
+  ]
+}

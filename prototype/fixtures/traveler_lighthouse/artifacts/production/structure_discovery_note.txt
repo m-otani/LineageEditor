@@ -1,0 +1,3 @@
+Weather tokens recur across several narrative lines.
+Revision 1 represents them as local prompt-fragment interpretations.
+Revision 2 proposes an explicit weather StateDomain with reviewed line bindings.

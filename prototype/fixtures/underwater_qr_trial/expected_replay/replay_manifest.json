@@ -1,0 +1,42 @@
+{
+  "adapter_replay": {
+    "generated_assertion_count": 8,
+    "generated_interpretation_run_count": 2,
+    "status": "matched"
+  },
+  "domain_id": "field-research",
+  "fixture_name": "underwater_qr_trial",
+  "format_version": "0.1",
+  "generated_files": [
+    {
+      "path": "comparisons/fact-set-revision-1__fact-set-revision-2.md",
+      "sha256": "4bc35e5eeeee18a649f4b4f4a3021af2951b8d4c8e3c497a150b868d1745f1dc"
+    },
+    {
+      "path": "context/fact-set-revision-1.json",
+      "sha256": "6695beeaf14a5e8838825bc3068b4da9644b0c17146bf16532610291e164e1d2"
+    },
+    {
+      "path": "context/fact-set-revision-2.json",
+      "sha256": "b1962f6eb360185ecaf78af8a01b79ebad42c98a9138e27f44ba99dbf370e698"
+    },
+    {
+      "path": "revisions/fact-set-revision-1.md",
+      "sha256": "1a8b3ece8011102d8c38d5ddce638c3c6fdb05e5c675e74f1dff82fda93d1949"
+    },
+    {
+      "path": "revisions/fact-set-revision-2.md",
+      "sha256": "53fc71a72fc5cd1f33510eb41f6c8a83cc6ce44df549574c5278303f4ac67586"
+    },
+    {
+      "path": "summary.md",
+      "sha256": "ddf204b890856e20018ce18d11be2e64bf75675db3e8dd7ea6d83632e2a27461"
+    }
+  ],
+  "project_id": "synthetic-underwater-qr-project",
+  "revision_ids": [
+    "fact-set-revision-1",
+    "fact-set-revision-2"
+  ],
+  "validation": "passed"
+}

@@ -1,0 +1,4 @@
+The baseline log contains repeated decoding failures during high-glare observations.
+The team proposes testing a polarizing filter in Trial 2.
+Camera exposure will also be changed from auto to locked to reduce fluctuations.
+Because two settings will change together, Trial 2 cannot isolate their individual causal contributions.

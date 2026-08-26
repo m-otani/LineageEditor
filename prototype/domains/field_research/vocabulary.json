@@ -1,0 +1,31 @@
+{
+  "domain_id": "field-research",
+  "version": "0.1",
+  "status": "prototype-working-vocabulary",
+  "assertion_types": {
+    "field_research.observation_row": {
+      "description": "A structured candidate produced deterministically from one observation-log row."
+    },
+    "field_research.observation": {
+      "description": "A reviewed statement about what was observed in the bounded field case."
+    },
+    "field_research.interpretation": {
+      "description": "A reviewed interpretation of one or more preserved observations."
+    },
+    "field_research.hypothesis": {
+      "description": "A possible explanation kept distinct from observation and evaluation."
+    },
+    "field_research.experimental_action": {
+      "description": "A recorded intervention or configuration change."
+    },
+    "field_research.outcome": {
+      "description": "A reviewed result or comparison following an experimental action."
+    },
+    "field_research.evaluation": {
+      "description": "A bounded assessment that may explicitly limit causal interpretation."
+    },
+    "field_research.decision": {
+      "description": "A project decision about a planned or future research action."
+    }
+  }
+}

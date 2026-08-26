@@ -1,0 +1,1497 @@
+{
+  "active_assertions": [
+    {
+      "assertion": {
+        "domain_payload": {
+          "branch_route_id": "route-b",
+          "line_id": "line-03",
+          "source_route_id": "route-a"
+        },
+        "domain_type": "visual_narrative.line",
+        "id": "assertion-branch-point-line-03",
+        "statement": "line-03 is the branch point from Route A to Route B."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [
+        "evidence-branch-point-note"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-structure-v1"
+      ],
+      "selected_review_decision_id": "review-branch-point-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "associated_module_id": "traveler",
+          "module_id": "red-scarf"
+        },
+        "domain_type": "visual_narrative.module",
+        "id": "assertion-module-red-scarf",
+        "statement": "The red scarf is a persistent identity-related component."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [],
+      "producing_interpretation_run_ids": [
+        "run-manual-structure-v1"
+      ],
+      "selected_review_decision_id": "review-module-scarf-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "module_id": "traveler"
+        },
+        "domain_type": "visual_narrative.module",
+        "id": "assertion-module-traveler",
+        "statement": "The traveler is a persistent visual-narrative Module."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [],
+      "producing_interpretation_run_ids": [
+        "run-manual-structure-v1"
+      ],
+      "selected_review_decision_id": "review-module-traveler-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "project_id": "traveler-lighthouse-project"
+        },
+        "domain_type": "visual_narrative.project",
+        "id": "assertion-project",
+        "statement": "The project is The Red-Scarf Traveler and the Lighthouse."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [
+        "evidence-project-route-note"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-structure-v1"
+      ],
+      "selected_review_decision_id": "review-project-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "line_ids": [
+            "line-01",
+            "line-02",
+            "line-03",
+            "line-04",
+            "line-05",
+            "line-06"
+          ],
+          "route_id": "route-a"
+        },
+        "domain_type": "visual_narrative.route",
+        "id": "assertion-route-a",
+        "statement": "Route A contains line-01 through line-06."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [
+        "evidence-route-a-note"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-structure-v1"
+      ],
+      "selected_review_decision_id": "review-route-a-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "branches_from_line_id": "line-03",
+          "line_ids": [
+            "branch-b1",
+            "branch-b2"
+          ],
+          "route_id": "route-b"
+        },
+        "domain_type": "visual_narrative.route",
+        "id": "assertion-route-b",
+        "statement": "Route B is a deliberate shelter branch from line-03."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [
+        "evidence-route-b-note"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-structure-v1"
+      ],
+      "selected_review_decision_id": "review-route-b-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "artifact_id": "artifact-line-03-selected",
+          "line_id": "line-03"
+        },
+        "domain_type": "visual_narrative.selected_artifact",
+        "id": "assertion-selected-line-03-artifact",
+        "statement": "The selected visual Artifact for line-03 is artifact-line-03-selected."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [
+        "evidence-selected-note",
+        "evidence-selected-svg"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-candidate-selection"
+      ],
+      "selected_review_decision_id": "review-selected-artifact-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "module_id": "traveler",
+          "slot_id": "held_item",
+          "values": [
+            "none",
+            "umbrella"
+          ]
+        },
+        "domain_type": "visual_narrative.attribute_slot",
+        "id": "assertion-slot-held-item",
+        "statement": "held_item is an AttributeSlot for the traveler."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [],
+      "producing_interpretation_run_ids": [
+        "run-manual-structure-v1"
+      ],
+      "selected_review_decision_id": "review-slot-held-item-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "module_id": "red-scarf",
+          "slot_id": "scarf_state",
+          "values": [
+            "dry",
+            "damp",
+            "wet"
+          ]
+        },
+        "domain_type": "visual_narrative.attribute_slot",
+        "id": "assertion-slot-scarf-state",
+        "statement": "scarf_state is an AttributeSlot for the red scarf."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [],
+      "producing_interpretation_run_ids": [
+        "run-manual-structure-v1"
+      ],
+      "selected_review_decision_id": "review-slot-scarf-state-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "line_ids": [
+            "line-03",
+            "line-04",
+            "branch-b1"
+          ],
+          "slot_id": "held_item",
+          "state_value": "umbrella"
+        },
+        "domain_type": "visual_narrative.line_binding",
+        "id": "assertion-umbrella-held-item-corrected",
+        "statement": "Umbrella is the held_item value for the rainy lines where it is carried."
+      },
+      "assertion_revision_relation_ids": [
+        "assertion-revision-umbrella-correction"
+      ],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [
+        "evidence-umbrella-corrected-note",
+        "evidence-umbrella-corrected-svg"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-candidate-selection"
+      ],
+      "selected_review_decision_id": "review-umbrella-correction-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "line_id": "branch-b1",
+          "slot_id": "weather",
+          "state_value": "heavy_rain"
+        },
+        "domain_type": "visual_narrative.line_binding",
+        "id": "assertion-weather-binding-branch-b1-v2",
+        "statement": "branch-b1 binds weather to heavy_rain."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [
+        "evidence-weather-binding-branch-b1"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-weather-v2"
+      ],
+      "selected_review_decision_id": "review-weather-binding-branch-b1-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "line_id": "branch-b2",
+          "slot_id": "weather",
+          "state_value": "after_rain"
+        },
+        "domain_type": "visual_narrative.line_binding",
+        "id": "assertion-weather-binding-branch-b2-v2",
+        "statement": "branch-b2 binds weather to after_rain."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [
+        "evidence-weather-binding-branch-b2"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-weather-v2"
+      ],
+      "selected_review_decision_id": "review-weather-binding-branch-b2-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "line_id": "line-01",
+          "slot_id": "weather",
+          "state_value": "clear"
+        },
+        "domain_type": "visual_narrative.line_binding",
+        "id": "assertion-weather-binding-line-01-v2",
+        "statement": "line-01 binds weather to clear."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [
+        "evidence-weather-binding-line-01"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-weather-v2"
+      ],
+      "selected_review_decision_id": "review-weather-binding-line-01-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "line_id": "line-02",
+          "slot_id": "weather",
+          "state_value": "cloudy"
+        },
+        "domain_type": "visual_narrative.line_binding",
+        "id": "assertion-weather-binding-line-02-v2",
+        "statement": "line-02 binds weather to cloudy."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [
+        "evidence-weather-binding-line-02"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-weather-v2"
+      ],
+      "selected_review_decision_id": "review-weather-binding-line-02-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "line_id": "line-03",
+          "slot_id": "weather",
+          "state_value": "light_rain"
+        },
+        "domain_type": "visual_narrative.line_binding",
+        "id": "assertion-weather-binding-line-03-v2",
+        "statement": "line-03 binds weather to light_rain."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [
+        "evidence-weather-binding-line-03"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-weather-v2"
+      ],
+      "selected_review_decision_id": "review-weather-binding-line-03-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "line_id": "line-04",
+          "slot_id": "weather",
+          "state_value": "heavy_rain"
+        },
+        "domain_type": "visual_narrative.line_binding",
+        "id": "assertion-weather-binding-line-04-v2",
+        "statement": "line-04 binds weather to heavy_rain."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [
+        "evidence-weather-binding-line-04"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-weather-v2"
+      ],
+      "selected_review_decision_id": "review-weather-binding-line-04-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "line_id": "line-05",
+          "slot_id": "weather",
+          "state_value": "after_rain"
+        },
+        "domain_type": "visual_narrative.line_binding",
+        "id": "assertion-weather-binding-line-05-v2",
+        "statement": "line-05 binds weather to after_rain."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [
+        "evidence-weather-binding-line-05"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-weather-v2"
+      ],
+      "selected_review_decision_id": "review-weather-binding-line-05-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "line_id": "line-06",
+          "slot_id": "weather",
+          "state_value": "after_rain"
+        },
+        "domain_type": "visual_narrative.line_binding",
+        "id": "assertion-weather-binding-line-06-v2",
+        "statement": "line-06 binds weather to after_rain."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [
+        "evidence-weather-binding-line-06"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-weather-v2"
+      ],
+      "selected_review_decision_id": "review-weather-binding-line-06-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "state_domain_id": "weather",
+          "values": [
+            "clear",
+            "cloudy",
+            "light_rain",
+            "heavy_rain",
+            "after_rain"
+          ]
+        },
+        "domain_type": "visual_narrative.state_domain",
+        "id": "assertion-weather-state-domain-v2",
+        "statement": "Revision 2 represents weather as an explicit StateDomain."
+      },
+      "assertion_revision_relation_ids": [
+        "assertion-revision-weather-reinterpretation",
+        "assertion-revision-weather-supersession"
+      ],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [
+        "evidence-weather-domain-note"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-weather-v2"
+      ],
+      "selected_review_decision_id": "review-weather-domain-accepted"
+    }
+  ],
+  "bundle_type": "lineage-editor-context",
+  "derived_state_counts": {
+    "accepted": 19,
+    "ambiguous": 1,
+    "proposed": 52,
+    "provisional": 0,
+    "rejected": 1,
+    "superseded": 1
+  },
+  "evidence_links": [
+    {
+      "artifact_id": "artifact-note-route-design",
+      "assertion_id": "assertion-branch-point-line-03",
+      "id": "evidence-branch-point-note",
+      "locator": {
+        "end": 3,
+        "kind": "text-lines",
+        "start": 3
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-note-route-design",
+      "assertion_id": "assertion-project",
+      "id": "evidence-project-route-note",
+      "locator": {
+        "kind": "file"
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-note-route-design",
+      "assertion_id": "assertion-route-a",
+      "id": "evidence-route-a-note",
+      "locator": {
+        "end": 1,
+        "kind": "text-lines",
+        "start": 1
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-note-route-design",
+      "assertion_id": "assertion-route-b",
+      "id": "evidence-route-b-note",
+      "locator": {
+        "end": 3,
+        "kind": "text-lines",
+        "start": 2
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-note-candidate-selection",
+      "assertion_id": "assertion-selected-line-03-artifact",
+      "id": "evidence-selected-note",
+      "locator": {
+        "end": 4,
+        "kind": "text-lines",
+        "start": 1
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-line-03-selected",
+      "assertion_id": "assertion-selected-line-03-artifact",
+      "id": "evidence-selected-svg",
+      "locator": {
+        "kind": "file"
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-note-candidate-selection",
+      "assertion_id": "assertion-umbrella-held-item-corrected",
+      "id": "evidence-umbrella-corrected-note",
+      "locator": {
+        "end": 3,
+        "kind": "text-lines",
+        "start": 2
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-line-03-selected",
+      "assertion_id": "assertion-umbrella-held-item-corrected",
+      "id": "evidence-umbrella-corrected-svg",
+      "locator": {
+        "kind": "file"
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-line-03-candidate-a",
+      "assertion_id": "assertion-umbrella-identity-incorrect",
+      "id": "evidence-umbrella-incorrect-candidate",
+      "locator": {
+        "kind": "file"
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-prompt-branch-b1",
+      "assertion_id": "assertion-weather-binding-branch-b1-v2",
+      "id": "evidence-weather-binding-branch-b1",
+      "locator": {
+        "end": 1,
+        "kind": "text-lines",
+        "start": 1
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-prompt-branch-b2",
+      "assertion_id": "assertion-weather-binding-branch-b2-v2",
+      "id": "evidence-weather-binding-branch-b2",
+      "locator": {
+        "end": 1,
+        "kind": "text-lines",
+        "start": 1
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-prompt-line-01",
+      "assertion_id": "assertion-weather-binding-line-01-v2",
+      "id": "evidence-weather-binding-line-01",
+      "locator": {
+        "end": 1,
+        "kind": "text-lines",
+        "start": 1
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-prompt-line-02",
+      "assertion_id": "assertion-weather-binding-line-02-v2",
+      "id": "evidence-weather-binding-line-02",
+      "locator": {
+        "end": 1,
+        "kind": "text-lines",
+        "start": 1
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-prompt-line-03",
+      "assertion_id": "assertion-weather-binding-line-03-v2",
+      "id": "evidence-weather-binding-line-03",
+      "locator": {
+        "end": 1,
+        "kind": "text-lines",
+        "start": 1
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-prompt-line-04",
+      "assertion_id": "assertion-weather-binding-line-04-v2",
+      "id": "evidence-weather-binding-line-04",
+      "locator": {
+        "end": 1,
+        "kind": "text-lines",
+        "start": 1
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-prompt-line-05",
+      "assertion_id": "assertion-weather-binding-line-05-v2",
+      "id": "evidence-weather-binding-line-05",
+      "locator": {
+        "end": 1,
+        "kind": "text-lines",
+        "start": 1
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-prompt-line-06",
+      "assertion_id": "assertion-weather-binding-line-06-v2",
+      "id": "evidence-weather-binding-line-06",
+      "locator": {
+        "end": 1,
+        "kind": "text-lines",
+        "start": 1
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-note-structure-discovery",
+      "assertion_id": "assertion-weather-state-domain-v2",
+      "id": "evidence-weather-domain-note",
+      "locator": {
+        "end": 3,
+        "kind": "text-lines",
+        "start": 1
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-note-structure-discovery",
+      "assertion_id": "assertion-weather-local-v1",
+      "id": "evidence-weather-local-note",
+      "locator": {
+        "end": 2,
+        "kind": "text-lines",
+        "start": 1
+      },
+      "polarity": "supports"
+    }
+  ],
+  "format_version": "0.1",
+  "interpretation_runs": [
+    {
+      "id": "run-manual-candidate-selection",
+      "input_artifact_ids": [
+        "artifact-note-candidate-selection",
+        "artifact-line-03-candidate-b",
+        "artifact-line-03-selected"
+      ],
+      "method": "manual-domain-interpretation",
+      "output_assertion_ids": [
+        "assertion-selected-line-03-artifact",
+        "assertion-umbrella-held-item-corrected"
+      ]
+    },
+    {
+      "id": "run-manual-structure-v1",
+      "input_artifact_ids": [
+        "artifact-note-route-design",
+        "artifact-prompt-line-01",
+        "artifact-prompt-line-02",
+        "artifact-prompt-line-03",
+        "artifact-prompt-line-04",
+        "artifact-prompt-line-05",
+        "artifact-prompt-line-06",
+        "artifact-prompt-branch-b1",
+        "artifact-prompt-branch-b2"
+      ],
+      "method": "manual-domain-interpretation",
+      "output_assertion_ids": [
+        "assertion-project",
+        "assertion-route-a",
+        "assertion-route-b",
+        "assertion-branch-point-line-03",
+        "assertion-module-traveler",
+        "assertion-module-red-scarf",
+        "assertion-slot-held-item",
+        "assertion-slot-scarf-state",
+        "assertion-weather-local-v1"
+      ]
+    },
+    {
+      "id": "run-manual-umbrella-misclassification",
+      "input_artifact_ids": [
+        "artifact-line-03-candidate-a",
+        "artifact-prompt-line-03"
+      ],
+      "method": "manual-domain-interpretation",
+      "output_assertion_ids": [
+        "assertion-umbrella-identity-incorrect"
+      ]
+    },
+    {
+      "id": "run-manual-weather-v2",
+      "input_artifact_ids": [
+        "artifact-note-structure-discovery",
+        "artifact-prompt-line-01",
+        "artifact-prompt-line-02",
+        "artifact-prompt-line-03",
+        "artifact-prompt-line-04",
+        "artifact-prompt-line-05",
+        "artifact-prompt-line-06",
+        "artifact-prompt-branch-b1",
+        "artifact-prompt-branch-b2"
+      ],
+      "method": "manual-structure-discovery",
+      "output_assertion_ids": [
+        "assertion-weather-state-domain-v2",
+        "assertion-weather-binding-line-01-v2",
+        "assertion-weather-binding-line-02-v2",
+        "assertion-weather-binding-line-03-v2",
+        "assertion-weather-binding-line-04-v2",
+        "assertion-weather-binding-line-05-v2",
+        "assertion-weather-binding-line-06-v2",
+        "assertion-weather-binding-branch-b1-v2",
+        "assertion-weather-binding-branch-b2-v2"
+      ]
+    }
+  ],
+  "project": {
+    "domain_id": "visual-narrative",
+    "format_version": "0.1",
+    "project_id": "traveler-lighthouse-project",
+    "title": "The Red-Scarf Traveler and the Lighthouse"
+  },
+  "referenced_artifacts": [
+    {
+      "evidence_locators": [
+        {
+          "evidence_link_id": "evidence-umbrella-incorrect-candidate",
+          "locator": {
+            "kind": "file"
+          }
+        }
+      ],
+      "excerpts": [],
+      "id": "artifact-line-03-candidate-a",
+      "media_type": "image/svg+xml",
+      "path": "artifacts/images/line_03_candidate_a.svg",
+      "roles": [
+        "generated-output",
+        "production-record"
+      ],
+      "sha256": "a73a5c9b5298436cbc42e80ca7f8092b4d9960aa1bfcb9660d2a813c31c9259f"
+    },
+    {
+      "evidence_locators": [],
+      "excerpts": [],
+      "id": "artifact-line-03-candidate-b",
+      "media_type": "image/svg+xml",
+      "path": "artifacts/images/line_03_candidate_b.svg",
+      "roles": [
+        "generated-output",
+        "production-record"
+      ],
+      "sha256": "59ba88714e70ce6b102616b18609a57fd15a82864ff11dd7fcf975c441e5bef9"
+    },
+    {
+      "evidence_locators": [
+        {
+          "evidence_link_id": "evidence-selected-svg",
+          "locator": {
+            "kind": "file"
+          }
+        },
+        {
+          "evidence_link_id": "evidence-umbrella-corrected-svg",
+          "locator": {
+            "kind": "file"
+          }
+        }
+      ],
+      "excerpts": [],
+      "id": "artifact-line-03-selected",
+      "media_type": "image/svg+xml",
+      "path": "artifacts/images/line_03_selected.svg",
+      "roles": [
+        "generated-output",
+        "source-evidence"
+      ],
+      "sha256": "02bb02b233b43159b636b32c3f2ed0d381c9478f836be413d56151d3baae99fd"
+    },
+    {
+      "evidence_locators": [
+        {
+          "evidence_link_id": "evidence-selected-note",
+          "locator": {
+            "end": 4,
+            "kind": "text-lines",
+            "start": 1
+          }
+        },
+        {
+          "evidence_link_id": "evidence-umbrella-corrected-note",
+          "locator": {
+            "end": 3,
+            "kind": "text-lines",
+            "start": 2
+          }
+        }
+      ],
+      "excerpts": [
+        {
+          "end": 4,
+          "evidence_link_id": "evidence-selected-note",
+          "kind": "text-lines",
+          "lines": [
+            "Two synthetic schematic candidates were considered for line-03.",
+            "Candidate B was selected for the canonical route.",
+            "The selected illustration preserves the umbrella as an object held by the traveler.",
+            "This note records production history and is not automatically accepted domain knowledge."
+          ],
+          "start": 1
+        },
+        {
+          "end": 3,
+          "evidence_link_id": "evidence-umbrella-corrected-note",
+          "kind": "text-lines",
+          "lines": [
+            "Candidate B was selected for the canonical route.",
+            "The selected illustration preserves the umbrella as an object held by the traveler."
+          ],
+          "start": 2
+        }
+      ],
+      "id": "artifact-note-candidate-selection",
+      "media_type": "text/plain",
+      "path": "artifacts/production/candidate_selection_note.txt",
+      "roles": [
+        "production-record",
+        "source-evidence"
+      ],
+      "sha256": "fc323279b8e47477f6f5f949e96d8db8205e51a0d3f9678bbeae35cf175fe402"
+    },
+    {
+      "evidence_locators": [
+        {
+          "evidence_link_id": "evidence-branch-point-note",
+          "locator": {
+            "end": 3,
+            "kind": "text-lines",
+            "start": 3
+          }
+        },
+        {
+          "evidence_link_id": "evidence-project-route-note",
+          "locator": {
+            "kind": "file"
+          }
+        },
+        {
+          "evidence_link_id": "evidence-route-a-note",
+          "locator": {
+            "end": 1,
+            "kind": "text-lines",
+            "start": 1
+          }
+        },
+        {
+          "evidence_link_id": "evidence-route-b-note",
+          "locator": {
+            "end": 3,
+            "kind": "text-lines",
+            "start": 2
+          }
+        }
+      ],
+      "excerpts": [
+        {
+          "end": 3,
+          "evidence_link_id": "evidence-branch-point-note",
+          "kind": "text-lines",
+          "lines": [
+            "Route B branches from Route A at line-03."
+          ],
+          "start": 3
+        },
+        {
+          "evidence_link_id": "evidence-project-route-note",
+          "kind": "file",
+          "text": "Route A contains line-01 through line-06 in sequence.\nRoute B contains branch-b1 and branch-b2 as a shelter alternative.\nRoute B branches from Route A at line-03.\n"
+        },
+        {
+          "end": 1,
+          "evidence_link_id": "evidence-route-a-note",
+          "kind": "text-lines",
+          "lines": [
+            "Route A contains line-01 through line-06 in sequence."
+          ],
+          "start": 1
+        },
+        {
+          "end": 3,
+          "evidence_link_id": "evidence-route-b-note",
+          "kind": "text-lines",
+          "lines": [
+            "Route B contains branch-b1 and branch-b2 as a shelter alternative.",
+            "Route B branches from Route A at line-03."
+          ],
+          "start": 2
+        }
+      ],
+      "id": "artifact-note-route-design",
+      "media_type": "text/plain",
+      "path": "artifacts/production/route_design_note.txt",
+      "roles": [
+        "production-record",
+        "source-evidence"
+      ],
+      "sha256": "f650f16fd1e02e97a75f56beee64f39bd8b86fc02c278cb2374f957b7d861626"
+    },
+    {
+      "evidence_locators": [
+        {
+          "evidence_link_id": "evidence-weather-domain-note",
+          "locator": {
+            "end": 3,
+            "kind": "text-lines",
+            "start": 1
+          }
+        },
+        {
+          "evidence_link_id": "evidence-weather-local-note",
+          "locator": {
+            "end": 2,
+            "kind": "text-lines",
+            "start": 1
+          }
+        }
+      ],
+      "excerpts": [
+        {
+          "end": 3,
+          "evidence_link_id": "evidence-weather-domain-note",
+          "kind": "text-lines",
+          "lines": [
+            "Weather tokens recur across several narrative lines.",
+            "Revision 1 represents them as local prompt-fragment interpretations.",
+            "Revision 2 proposes an explicit weather StateDomain with reviewed line bindings."
+          ],
+          "start": 1
+        },
+        {
+          "end": 2,
+          "evidence_link_id": "evidence-weather-local-note",
+          "kind": "text-lines",
+          "lines": [
+            "Weather tokens recur across several narrative lines.",
+            "Revision 1 represents them as local prompt-fragment interpretations."
+          ],
+          "start": 1
+        }
+      ],
+      "id": "artifact-note-structure-discovery",
+      "media_type": "text/plain",
+      "path": "artifacts/production/structure_discovery_note.txt",
+      "roles": [
+        "production-record",
+        "source-evidence"
+      ],
+      "sha256": "3224b1b44ce5924df108d961b73fbaf9e3c805c2262ce970b842d4e6db78753d"
+    },
+    {
+      "evidence_locators": [
+        {
+          "evidence_link_id": "evidence-weather-binding-branch-b1",
+          "locator": {
+            "end": 1,
+            "kind": "text-lines",
+            "start": 1
+          }
+        }
+      ],
+      "excerpts": [
+        {
+          "end": 1,
+          "evidence_link_id": "evidence-weather-binding-branch-b1",
+          "kind": "text-lines",
+          "lines": [
+            "traveler, red scarf, heavy rain, wet scarf, umbrella, shelter entrance"
+          ],
+          "start": 1
+        }
+      ],
+      "id": "artifact-prompt-branch-b1",
+      "media_type": "text/plain",
+      "path": "artifacts/prompts/branch_b1.txt",
+      "roles": [
+        "source-evidence"
+      ],
+      "sha256": "af2f89d6c8df7ae7ba95db4420e4115cf1583027ca97e985b22f30c5faed11fa"
+    },
+    {
+      "evidence_locators": [
+        {
+          "evidence_link_id": "evidence-weather-binding-branch-b2",
+          "locator": {
+            "end": 1,
+            "kind": "text-lines",
+            "start": 1
+          }
+        }
+      ],
+      "excerpts": [
+        {
+          "end": 1,
+          "evidence_link_id": "evidence-weather-binding-branch-b2",
+          "kind": "text-lines",
+          "lines": [
+            "traveler, red scarf, inside shelter, after rain, damp scarf, no umbrella"
+          ],
+          "start": 1
+        }
+      ],
+      "id": "artifact-prompt-branch-b2",
+      "media_type": "text/plain",
+      "path": "artifacts/prompts/branch_b2.txt",
+      "roles": [
+        "source-evidence"
+      ],
+      "sha256": "42674a6008238abe53f82cf07285bcc74d1e16c32c480cb308958634b2b24531"
+    },
+    {
+      "evidence_locators": [
+        {
+          "evidence_link_id": "evidence-weather-binding-line-01",
+          "locator": {
+            "end": 1,
+            "kind": "text-lines",
+            "start": 1
+          }
+        }
+      ],
+      "excerpts": [
+        {
+          "end": 1,
+          "evidence_link_id": "evidence-weather-binding-line-01",
+          "kind": "text-lines",
+          "lines": [
+            "traveler, red scarf, coastal path, clear weather, no umbrella, lighthouse distant"
+          ],
+          "start": 1
+        }
+      ],
+      "id": "artifact-prompt-line-01",
+      "media_type": "text/plain",
+      "path": "artifacts/prompts/line_01.txt",
+      "roles": [
+        "source-evidence"
+      ],
+      "sha256": "68a7ef701ab576804a22000b60cfdc51556dedd035caaada0ba17d8e7bab6749"
+    },
+    {
+      "evidence_locators": [
+        {
+          "evidence_link_id": "evidence-weather-binding-line-02",
+          "locator": {
+            "end": 1,
+            "kind": "text-lines",
+            "start": 1
+          }
+        }
+      ],
+      "excerpts": [
+        {
+          "end": 1,
+          "evidence_link_id": "evidence-weather-binding-line-02",
+          "kind": "text-lines",
+          "lines": [
+            "traveler, red scarf, coastal path, cloudy weather, no umbrella, lighthouse closer"
+          ],
+          "start": 1
+        }
+      ],
+      "id": "artifact-prompt-line-02",
+      "media_type": "text/plain",
+      "path": "artifacts/prompts/line_02.txt",
+      "roles": [
+        "source-evidence"
+      ],
+      "sha256": "e6c46271652a604c5602b74cdc8c2c27943a69034b6b9bf5bc96cd61a099b2db"
+    },
+    {
+      "evidence_locators": [
+        {
+          "evidence_link_id": "evidence-weather-binding-line-03",
+          "locator": {
+            "end": 1,
+            "kind": "text-lines",
+            "start": 1
+          }
+        }
+      ],
+      "excerpts": [
+        {
+          "end": 1,
+          "evidence_link_id": "evidence-weather-binding-line-03",
+          "kind": "text-lines",
+          "lines": [
+            "traveler, red scarf, coastal path, light rain, damp scarf, umbrella, fork in path"
+          ],
+          "start": 1
+        }
+      ],
+      "id": "artifact-prompt-line-03",
+      "media_type": "text/plain",
+      "path": "artifacts/prompts/line_03.txt",
+      "roles": [
+        "source-evidence"
+      ],
+      "sha256": "32a60569075ef89b7568b05a7d9d977a7c6ebdb7ba53d83dad87d2a3d4edcb18"
+    },
+    {
+      "evidence_locators": [
+        {
+          "evidence_link_id": "evidence-weather-binding-line-04",
+          "locator": {
+            "end": 1,
+            "kind": "text-lines",
+            "start": 1
+          }
+        }
+      ],
+      "excerpts": [
+        {
+          "end": 1,
+          "evidence_link_id": "evidence-weather-binding-line-04",
+          "kind": "text-lines",
+          "lines": [
+            "traveler, red scarf, coastal path, heavy rain, wet scarf, umbrella, lighthouse nearby"
+          ],
+          "start": 1
+        }
+      ],
+      "id": "artifact-prompt-line-04",
+      "media_type": "text/plain",
+      "path": "artifacts/prompts/line_04.txt",
+      "roles": [
+        "source-evidence"
+      ],
+      "sha256": "0bfeb31a1adc7e5af68e958214b17bdef16ad1c904e71c14a194a9abbb5e9457"
+    },
+    {
+      "evidence_locators": [
+        {
+          "evidence_link_id": "evidence-weather-binding-line-05",
+          "locator": {
+            "end": 1,
+            "kind": "text-lines",
+            "start": 1
+          }
+        }
+      ],
+      "excerpts": [
+        {
+          "end": 1,
+          "evidence_link_id": "evidence-weather-binding-line-05",
+          "kind": "text-lines",
+          "lines": [
+            "traveler, red scarf, coastal path, after rain, damp scarf, no umbrella, lighthouse entrance"
+          ],
+          "start": 1
+        }
+      ],
+      "id": "artifact-prompt-line-05",
+      "media_type": "text/plain",
+      "path": "artifacts/prompts/line_05.txt",
+      "roles": [
+        "source-evidence"
+      ],
+      "sha256": "308bf60a2ae1c6793214260432a0d75f4c285ba258fe67e57c7392b3859be611"
+    },
+    {
+      "evidence_locators": [
+        {
+          "evidence_link_id": "evidence-weather-binding-line-06",
+          "locator": {
+            "end": 1,
+            "kind": "text-lines",
+            "start": 1
+          }
+        }
+      ],
+      "excerpts": [
+        {
+          "end": 1,
+          "evidence_link_id": "evidence-weather-binding-line-06",
+          "kind": "text-lines",
+          "lines": [
+            "traveler, red scarf, inside lighthouse, after rain, dry scarf, no umbrella"
+          ],
+          "start": 1
+        }
+      ],
+      "id": "artifact-prompt-line-06",
+      "media_type": "text/plain",
+      "path": "artifacts/prompts/line_06.txt",
+      "roles": [
+        "source-evidence"
+      ],
+      "sha256": "95aeb8044d3ec83066eeca204dc4b4baf6163dbf729687a8cdddff34ad79782b"
+    }
+  ],
+  "related_inactive_assertions": [
+    {
+      "assertion": {
+        "domain_payload": {
+          "identity_component": "umbrella",
+          "module_id": "traveler"
+        },
+        "domain_type": "visual_narrative.module",
+        "id": "assertion-umbrella-identity-incorrect",
+        "statement": "Umbrella is part of the traveler identity Module."
+      },
+      "assertion_revision_relation_ids": [
+        "assertion-revision-umbrella-correction"
+      ],
+      "derived_display_state": "rejected",
+      "direct_evidence_link_ids": [
+        "evidence-umbrella-incorrect-candidate"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-umbrella-misclassification"
+      ],
+      "selected_review_decision_id": "review-umbrella-identity-rejected"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "interpretation": "local-weather-fragments",
+          "scope": "individual-lines"
+        },
+        "domain_type": "visual_narrative.local_prompt_interpretation",
+        "id": "assertion-weather-local-v1",
+        "statement": "Weather tokens are treated as local prompt-fragment interpretations in Revision 1."
+      },
+      "assertion_revision_relation_ids": [
+        "assertion-revision-weather-reinterpretation",
+        "assertion-revision-weather-supersession"
+      ],
+      "derived_display_state": "superseded",
+      "direct_evidence_link_ids": [
+        "evidence-weather-local-note"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-structure-v1"
+      ],
+      "selected_review_decision_id": "review-weather-local-provisional"
+    }
+  ],
+  "revision": {
+    "active_assertion_ids": [
+      "assertion-project",
+      "assertion-route-a",
+      "assertion-route-b",
+      "assertion-branch-point-line-03",
+      "assertion-module-traveler",
+      "assertion-module-red-scarf",
+      "assertion-slot-held-item",
+      "assertion-slot-scarf-state",
+      "assertion-selected-line-03-artifact",
+      "assertion-umbrella-held-item-corrected",
+      "assertion-weather-state-domain-v2",
+      "assertion-weather-binding-line-01-v2",
+      "assertion-weather-binding-line-02-v2",
+      "assertion-weather-binding-line-03-v2",
+      "assertion-weather-binding-line-04-v2",
+      "assertion-weather-binding-line-05-v2",
+      "assertion-weather-binding-line-06-v2",
+      "assertion-weather-binding-branch-b1-v2",
+      "assertion-weather-binding-branch-b2-v2"
+    ],
+    "assertion_revision_relation_ids": [
+      "assertion-revision-umbrella-correction",
+      "assertion-revision-weather-reinterpretation",
+      "assertion-revision-weather-supersession"
+    ],
+    "domain_id": "visual-narrative",
+    "effective_review_decision_ids": [
+      "review-project-accepted",
+      "review-route-a-accepted",
+      "review-branch-point-accepted",
+      "review-module-traveler-accepted",
+      "review-module-scarf-accepted",
+      "review-slot-held-item-accepted",
+      "review-slot-scarf-state-accepted",
+      "review-selected-artifact-accepted",
+      "review-umbrella-identity-rejected",
+      "review-umbrella-correction-accepted",
+      "review-scarf-ambiguity",
+      "review-weather-local-provisional",
+      "review-route-b-accepted",
+      "review-weather-domain-accepted",
+      "review-weather-binding-line-01-accepted",
+      "review-weather-binding-line-02-accepted",
+      "review-weather-binding-line-03-accepted",
+      "review-weather-binding-line-04-accepted",
+      "review-weather-binding-line-05-accepted",
+      "review-weather-binding-line-06-accepted",
+      "review-weather-binding-branch-b1-accepted",
+      "review-weather-binding-branch-b2-accepted"
+    ],
+    "id": "fact-set-revision-2",
+    "previous_revision_id": "fact-set-revision-1",
+    "project_id": "traveler-lighthouse-project"
+  },
+  "selected_assertion_revision_relations": [
+    {
+      "id": "assertion-revision-umbrella-correction",
+      "new_assertion_id": "assertion-umbrella-held-item-corrected",
+      "old_assertion_id": "assertion-umbrella-identity-incorrect",
+      "relation": "revised-from"
+    },
+    {
+      "id": "assertion-revision-weather-reinterpretation",
+      "new_assertion_id": "assertion-weather-state-domain-v2",
+      "old_assertion_id": "assertion-weather-local-v1",
+      "relation": "revised-from"
+    },
+    {
+      "id": "assertion-revision-weather-supersession",
+      "new_assertion_id": "assertion-weather-state-domain-v2",
+      "old_assertion_id": "assertion-weather-local-v1",
+      "relation": "supersedes"
+    }
+  ],
+  "selected_review_decisions": [
+    {
+      "assertion_id": "assertion-branch-point-line-03",
+      "id": "review-branch-point-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-module-red-scarf",
+      "id": "review-module-scarf-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-module-traveler",
+      "id": "review-module-traveler-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-project",
+      "id": "review-project-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-route-a",
+      "id": "review-route-a-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-route-b",
+      "id": "review-route-b-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": "review-route-b-provisional"
+    },
+    {
+      "assertion_id": "assertion-scarf-state-ambiguity",
+      "id": "review-scarf-ambiguity",
+      "note": "Ambiguous for the canonical visual fixture.",
+      "outcome": "ambiguous",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-selected-line-03-artifact",
+      "id": "review-selected-artifact-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-slot-held-item",
+      "id": "review-slot-held-item-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-slot-scarf-state",
+      "id": "review-slot-scarf-state-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-umbrella-held-item-corrected",
+      "id": "review-umbrella-correction-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-umbrella-identity-incorrect",
+      "id": "review-umbrella-identity-rejected",
+      "note": "Rejected for the canonical visual fixture.",
+      "outcome": "rejected",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-weather-binding-branch-b1-v2",
+      "id": "review-weather-binding-branch-b1-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-weather-binding-branch-b2-v2",
+      "id": "review-weather-binding-branch-b2-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-weather-binding-line-01-v2",
+      "id": "review-weather-binding-line-01-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-weather-binding-line-02-v2",
+      "id": "review-weather-binding-line-02-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-weather-binding-line-03-v2",
+      "id": "review-weather-binding-line-03-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-weather-binding-line-04-v2",
+      "id": "review-weather-binding-line-04-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-weather-binding-line-05-v2",
+      "id": "review-weather-binding-line-05-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-weather-binding-line-06-v2",
+      "id": "review-weather-binding-line-06-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-weather-state-domain-v2",
+      "id": "review-weather-domain-accepted",
+      "note": "Accepted for the canonical visual fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-weather-local-v1",
+      "id": "review-weather-local-provisional",
+      "note": "Provisional for the canonical visual fixture.",
+      "outcome": "provisional",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    }
+  ]
+}

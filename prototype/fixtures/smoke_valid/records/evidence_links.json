@@ -1,0 +1,16 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "evidence-initial",
+      "assertion_id": "assertion-initial",
+      "artifact_id": "artifact-source-note",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 1,
+        "end": 2
+      }
+    }
+  ]
+}

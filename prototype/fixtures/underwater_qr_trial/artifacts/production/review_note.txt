@@ -1,0 +1,5 @@
+Trial 1 recorded 1 successful decode out of 4 observations.
+Trial 2 recorded 3 successful decodes out of 4 observations.
+The polarizing filter and exposure mode changed together, and view stability also varied.
+The observed difference does not establish that the polarizing filter caused the improvement.
+A follow-up design should vary the filter and exposure settings independently.

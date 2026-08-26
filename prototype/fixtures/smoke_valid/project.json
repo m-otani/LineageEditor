@@ -1,0 +1,6 @@
+{
+  "format_version": "0.1",
+  "project_id": "smoke-project",
+  "domain_id": "smoke-domain",
+  "title": "Neutral shared-core smoke fixture"
+}

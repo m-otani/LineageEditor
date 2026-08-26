@@ -1,0 +1,42 @@
+{
+  "adapter_replay": {
+    "generated_assertion_count": 0,
+    "generated_interpretation_run_count": 0,
+    "status": "not-applicable"
+  },
+  "domain_id": "smoke-domain",
+  "fixture_name": "smoke_valid",
+  "format_version": "0.1",
+  "generated_files": [
+    {
+      "path": "comparisons/fact-set-revision-1__fact-set-revision-2.md",
+      "sha256": "8fcc633e4551d77ef290298bd66a8c97c80d77a2155fc6bbc2c48a0121737b39"
+    },
+    {
+      "path": "context/fact-set-revision-1.json",
+      "sha256": "e2892f7168b0b1ac5c826fd0289b877e1c05ee072b9917a7af1b4704e9fe9bc1"
+    },
+    {
+      "path": "context/fact-set-revision-2.json",
+      "sha256": "5c2e210ed489b84a18dc7ca6de75adc5a8ae886f04d41b65b10b335d66cf7349"
+    },
+    {
+      "path": "revisions/fact-set-revision-1.md",
+      "sha256": "18b6e04aabbf1d4396dd8d3dd8340f0e6dc54e96f5eaef108ce614817a834a24"
+    },
+    {
+      "path": "revisions/fact-set-revision-2.md",
+      "sha256": "0d137e76c4d480a5c9674fd82831bc6f22b89dcc096f4cebd7cc1a7d9796ab75"
+    },
+    {
+      "path": "summary.md",
+      "sha256": "64bfac3ca69ac9f961bc5eab28cded287bd68156352dcd2994934eac6afc96c9"
+    }
+  ],
+  "project_id": "smoke-project",
+  "revision_ids": [
+    "fact-set-revision-1",
+    "fact-set-revision-2"
+  ],
+  "validation": "passed"
+}

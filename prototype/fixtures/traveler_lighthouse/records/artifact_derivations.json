@@ -1,0 +1,10 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "artifact-derivation-line-03-selection",
+      "new_artifact_id": "artifact-line-03-selected",
+      "earlier_artifact_id": "artifact-line-03-candidate-b"
+    }
+  ]
+}

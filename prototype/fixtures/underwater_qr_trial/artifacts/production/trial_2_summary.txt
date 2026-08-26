@@ -1,0 +1,5 @@
+Synthetic Trial 2 summary
+successes: 3
+failures: 1
+observations: 4
+configuration: polarizing filter installed; exposure locked

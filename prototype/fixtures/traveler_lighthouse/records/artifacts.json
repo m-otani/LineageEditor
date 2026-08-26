@@ -1,0 +1,207 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "artifact-prompt-line-01",
+      "path": "artifacts/prompts/line_01.txt",
+      "sha256": "68a7ef701ab576804a22000b60cfdc51556dedd035caaada0ba17d8e7bab6749",
+      "roles": [
+        "source-evidence"
+      ],
+      "media_type": "text/plain"
+    },
+    {
+      "id": "artifact-prompt-line-02",
+      "path": "artifacts/prompts/line_02.txt",
+      "sha256": "e6c46271652a604c5602b74cdc8c2c27943a69034b6b9bf5bc96cd61a099b2db",
+      "roles": [
+        "source-evidence"
+      ],
+      "media_type": "text/plain"
+    },
+    {
+      "id": "artifact-prompt-line-03",
+      "path": "artifacts/prompts/line_03.txt",
+      "sha256": "32a60569075ef89b7568b05a7d9d977a7c6ebdb7ba53d83dad87d2a3d4edcb18",
+      "roles": [
+        "source-evidence"
+      ],
+      "media_type": "text/plain"
+    },
+    {
+      "id": "artifact-prompt-line-04",
+      "path": "artifacts/prompts/line_04.txt",
+      "sha256": "0bfeb31a1adc7e5af68e958214b17bdef16ad1c904e71c14a194a9abbb5e9457",
+      "roles": [
+        "source-evidence"
+      ],
+      "media_type": "text/plain"
+    },
+    {
+      "id": "artifact-prompt-line-05",
+      "path": "artifacts/prompts/line_05.txt",
+      "sha256": "308bf60a2ae1c6793214260432a0d75f4c285ba258fe67e57c7392b3859be611",
+      "roles": [
+        "source-evidence"
+      ],
+      "media_type": "text/plain"
+    },
+    {
+      "id": "artifact-prompt-line-06",
+      "path": "artifacts/prompts/line_06.txt",
+      "sha256": "95aeb8044d3ec83066eeca204dc4b4baf6163dbf729687a8cdddff34ad79782b",
+      "roles": [
+        "source-evidence"
+      ],
+      "media_type": "text/plain"
+    },
+    {
+      "id": "artifact-prompt-branch-b1",
+      "path": "artifacts/prompts/branch_b1.txt",
+      "sha256": "af2f89d6c8df7ae7ba95db4420e4115cf1583027ca97e985b22f30c5faed11fa",
+      "roles": [
+        "source-evidence"
+      ],
+      "media_type": "text/plain"
+    },
+    {
+      "id": "artifact-prompt-branch-b2",
+      "path": "artifacts/prompts/branch_b2.txt",
+      "sha256": "42674a6008238abe53f82cf07285bcc74d1e16c32c480cb308958634b2b24531",
+      "roles": [
+        "source-evidence"
+      ],
+      "media_type": "text/plain"
+    },
+    {
+      "id": "artifact-image-line-01",
+      "path": "artifacts/images/line_01.svg",
+      "sha256": "f43b50ba47f018b7ea43ae13c99c7f982555a032cd0ba663a3d5c74b261c2400",
+      "roles": [
+        "generated-output",
+        "source-evidence"
+      ],
+      "media_type": "image/svg+xml"
+    },
+    {
+      "id": "artifact-image-line-02",
+      "path": "artifacts/images/line_02.svg",
+      "sha256": "0d8e402c35b204a174cbacf11f259b2a8293ce26333d879791b0dcc8636cb0d6",
+      "roles": [
+        "generated-output",
+        "source-evidence"
+      ],
+      "media_type": "image/svg+xml"
+    },
+    {
+      "id": "artifact-line-03-candidate-a",
+      "path": "artifacts/images/line_03_candidate_a.svg",
+      "sha256": "a73a5c9b5298436cbc42e80ca7f8092b4d9960aa1bfcb9660d2a813c31c9259f",
+      "roles": [
+        "generated-output",
+        "production-record"
+      ],
+      "media_type": "image/svg+xml"
+    },
+    {
+      "id": "artifact-line-03-candidate-b",
+      "path": "artifacts/images/line_03_candidate_b.svg",
+      "sha256": "59ba88714e70ce6b102616b18609a57fd15a82864ff11dd7fcf975c441e5bef9",
+      "roles": [
+        "generated-output",
+        "production-record"
+      ],
+      "media_type": "image/svg+xml"
+    },
+    {
+      "id": "artifact-line-03-selected",
+      "path": "artifacts/images/line_03_selected.svg",
+      "sha256": "02bb02b233b43159b636b32c3f2ed0d381c9478f836be413d56151d3baae99fd",
+      "roles": [
+        "generated-output",
+        "source-evidence"
+      ],
+      "media_type": "image/svg+xml"
+    },
+    {
+      "id": "artifact-image-line-04",
+      "path": "artifacts/images/line_04.svg",
+      "sha256": "2863f94d911da703caae244a2ec530d691a22393a815f1741fffc7c69bbe9409",
+      "roles": [
+        "generated-output",
+        "source-evidence"
+      ],
+      "media_type": "image/svg+xml"
+    },
+    {
+      "id": "artifact-image-line-05",
+      "path": "artifacts/images/line_05.svg",
+      "sha256": "fa183fb31672892a8ccdc76b63dc181de929071457af615f8ff7c5715fd8ce51",
+      "roles": [
+        "generated-output",
+        "source-evidence"
+      ],
+      "media_type": "image/svg+xml"
+    },
+    {
+      "id": "artifact-image-line-06",
+      "path": "artifacts/images/line_06.svg",
+      "sha256": "78ad4991edc38633ce66bf1c3413feb3d00d9b28268ff59eac4569ab66fc4db4",
+      "roles": [
+        "generated-output",
+        "source-evidence"
+      ],
+      "media_type": "image/svg+xml"
+    },
+    {
+      "id": "artifact-image-branch-b1",
+      "path": "artifacts/images/branch_b1.svg",
+      "sha256": "876df4bfc926fc60372bd2e621c6cbb0d7bd38f4425e80dd4c19313aeb73377e",
+      "roles": [
+        "generated-output",
+        "source-evidence"
+      ],
+      "media_type": "image/svg+xml"
+    },
+    {
+      "id": "artifact-image-branch-b2",
+      "path": "artifacts/images/branch_b2.svg",
+      "sha256": "540e84305a4b5499f9ef9bcc91249fb39de50d1b9f123bb27e0bb95570db2d07",
+      "roles": [
+        "generated-output",
+        "source-evidence"
+      ],
+      "media_type": "image/svg+xml"
+    },
+    {
+      "id": "artifact-note-candidate-selection",
+      "path": "artifacts/production/candidate_selection_note.txt",
+      "sha256": "fc323279b8e47477f6f5f949e96d8db8205e51a0d3f9678bbeae35cf175fe402",
+      "roles": [
+        "production-record",
+        "source-evidence"
+      ],
+      "media_type": "text/plain"
+    },
+    {
+      "id": "artifact-note-structure-discovery",
+      "path": "artifacts/production/structure_discovery_note.txt",
+      "sha256": "3224b1b44ce5924df108d961b73fbaf9e3c805c2262ce970b842d4e6db78753d",
+      "roles": [
+        "production-record",
+        "source-evidence"
+      ],
+      "media_type": "text/plain"
+    },
+    {
+      "id": "artifact-note-route-design",
+      "path": "artifacts/production/route_design_note.txt",
+      "sha256": "f650f16fd1e02e97a75f56beee64f39bd8b86fc02c278cb2374f957b7d861626",
+      "roles": [
+        "production-record",
+        "source-evidence"
+      ],
+      "media_type": "text/plain"
+    }
+  ]
+}

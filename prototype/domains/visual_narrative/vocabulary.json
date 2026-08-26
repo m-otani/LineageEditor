@@ -1,0 +1,37 @@
+{
+  "domain_id": "visual-narrative",
+  "version": "0.1",
+  "status": "prototype-working-vocabulary",
+  "assertion_types": {
+    "visual_narrative.prompt_token": {
+      "description": "A syntactic token produced by the deterministic prompt adapter."
+    },
+    "visual_narrative.project": {
+      "description": "The identity of the bounded visual narrative project."
+    },
+    "visual_narrative.line": {
+      "description": "A narrative line or scene unit."
+    },
+    "visual_narrative.route": {
+      "description": "An ordered or branching route through narrative lines."
+    },
+    "visual_narrative.module": {
+      "description": "An ISDL-domain identity grouping within the visual narrative."
+    },
+    "visual_narrative.attribute_slot": {
+      "description": "An attribute dimension such as held item or scarf state."
+    },
+    "visual_narrative.state_domain": {
+      "description": "A bounded set of temporal state values."
+    },
+    "visual_narrative.line_binding": {
+      "description": "A binding from a line to a domain slot or state value."
+    },
+    "visual_narrative.local_prompt_interpretation": {
+      "description": "A local semantic interpretation before recurring structure is promoted."
+    },
+    "visual_narrative.selected_artifact": {
+      "description": "A reviewed relationship between a line and a selected visual Artifact."
+    }
+  }
+}

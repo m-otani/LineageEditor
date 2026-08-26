@@ -1,0 +1,251 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "assertion-observation-row-obs-b-001",
+      "domain_type": "field_research.observation_row",
+      "statement": "obs-b-001 records a failure at 0 seconds in trial-1-baseline.",
+      "domain_payload": {
+        "observation_id": "obs-b-001",
+        "trial_id": "trial-1-baseline",
+        "time_s": 0,
+        "qr_visible": true,
+        "decode_result": "failure",
+        "glare_level": "high",
+        "exposure_mode": "auto",
+        "note": "strong reflection across code"
+      }
+    },
+    {
+      "id": "assertion-observation-row-obs-b-002",
+      "domain_type": "field_research.observation_row",
+      "statement": "obs-b-002 records a failure at 10 seconds in trial-1-baseline.",
+      "domain_payload": {
+        "observation_id": "obs-b-002",
+        "trial_id": "trial-1-baseline",
+        "time_s": 10,
+        "qr_visible": true,
+        "decode_result": "failure",
+        "glare_level": "high",
+        "exposure_mode": "auto",
+        "note": "partial code edge visible"
+      }
+    },
+    {
+      "id": "assertion-observation-row-obs-b-003",
+      "domain_type": "field_research.observation_row",
+      "statement": "obs-b-003 records a success at 20 seconds in trial-1-baseline.",
+      "domain_payload": {
+        "observation_id": "obs-b-003",
+        "trial_id": "trial-1-baseline",
+        "time_s": 20,
+        "qr_visible": true,
+        "decode_result": "success",
+        "glare_level": "medium",
+        "exposure_mode": "auto",
+        "note": "brief stable angle"
+      }
+    },
+    {
+      "id": "assertion-observation-row-obs-b-004",
+      "domain_type": "field_research.observation_row",
+      "statement": "obs-b-004 records a failure at 30 seconds in trial-1-baseline.",
+      "domain_payload": {
+        "observation_id": "obs-b-004",
+        "trial_id": "trial-1-baseline",
+        "time_s": 30,
+        "qr_visible": false,
+        "decode_result": "failure",
+        "glare_level": "high",
+        "exposure_mode": "auto",
+        "note": "vehicle yaw moved code out of view"
+      }
+    },
+    {
+      "id": "assertion-observation-row-obs-f-001",
+      "domain_type": "field_research.observation_row",
+      "statement": "obs-f-001 records a success at 0 seconds in trial-2-filter-lock.",
+      "domain_payload": {
+        "observation_id": "obs-f-001",
+        "trial_id": "trial-2-filter-lock",
+        "time_s": 0,
+        "qr_visible": true,
+        "decode_result": "success",
+        "glare_level": "low",
+        "exposure_mode": "locked",
+        "note": "filter installed"
+      }
+    },
+    {
+      "id": "assertion-observation-row-obs-f-002",
+      "domain_type": "field_research.observation_row",
+      "statement": "obs-f-002 records a success at 10 seconds in trial-2-filter-lock.",
+      "domain_payload": {
+        "observation_id": "obs-f-002",
+        "trial_id": "trial-2-filter-lock",
+        "time_s": 10,
+        "qr_visible": true,
+        "decode_result": "success",
+        "glare_level": "low",
+        "exposure_mode": "locked",
+        "note": "stable angle"
+      }
+    },
+    {
+      "id": "assertion-observation-row-obs-f-003",
+      "domain_type": "field_research.observation_row",
+      "statement": "obs-f-003 records a failure at 20 seconds in trial-2-filter-lock.",
+      "domain_payload": {
+        "observation_id": "obs-f-003",
+        "trial_id": "trial-2-filter-lock",
+        "time_s": 20,
+        "qr_visible": true,
+        "decode_result": "failure",
+        "glare_level": "medium",
+        "exposure_mode": "locked",
+        "note": "motion blur"
+      }
+    },
+    {
+      "id": "assertion-observation-row-obs-f-004",
+      "domain_type": "field_research.observation_row",
+      "statement": "obs-f-004 records a success at 30 seconds in trial-2-filter-lock.",
+      "domain_payload": {
+        "observation_id": "obs-f-004",
+        "trial_id": "trial-2-filter-lock",
+        "time_s": 30,
+        "qr_visible": true,
+        "decode_result": "success",
+        "glare_level": "low",
+        "exposure_mode": "locked",
+        "note": "code centered"
+      }
+    },
+    {
+      "id": "assertion-baseline-decode-summary",
+      "domain_type": "field_research.observation",
+      "statement": "Trial 1 recorded one successful QR decode and three failures across four observations.",
+      "domain_payload": {
+        "trial_id": "trial-1-baseline",
+        "successes": 1,
+        "failures": 3,
+        "observations": 4
+      }
+    },
+    {
+      "id": "assertion-glare-failure-cooccurrence",
+      "domain_type": "field_research.interpretation",
+      "statement": "High-glare observations in Trial 1 coincided with repeated decode failures.",
+      "domain_payload": {
+        "trial_id": "trial-1-baseline",
+        "relationship": "co-occurrence",
+        "high_glare_observations": 3,
+        "failures_during_high_glare": 3
+      }
+    },
+    {
+      "id": "assertion-reflection-hypothesis",
+      "domain_type": "field_research.hypothesis",
+      "statement": "Reflected light may have reduced QR visibility during some Trial 1 observations.",
+      "domain_payload": {
+        "trial_id": "trial-1-baseline",
+        "possible_factor": "reflected_light"
+      }
+    },
+    {
+      "id": "assertion-exposure-hypothesis",
+      "domain_type": "field_research.hypothesis",
+      "statement": "Automatic camera exposure may have contributed to unstable QR visibility in Trial 1.",
+      "domain_payload": {
+        "trial_id": "trial-1-baseline",
+        "possible_factor": "automatic_exposure"
+      }
+    },
+    {
+      "id": "assertion-decision-test-filter-lock",
+      "domain_type": "field_research.decision",
+      "statement": "The project decision is to test a polarizing-filter and locked-exposure configuration in Trial 2.",
+      "domain_payload": {
+        "planned_trial_id": "trial-2-filter-lock",
+        "planned_changes": [
+          "polarizing_filter",
+          "exposure_mode"
+        ]
+      }
+    },
+    {
+      "id": "assertion-action-filter-lock",
+      "domain_type": "field_research.experimental_action",
+      "statement": "Before Trial 2, a polarizing filter was installed and camera exposure was changed from auto to locked.",
+      "domain_payload": {
+        "trial_id": "trial-2-filter-lock",
+        "changes": [
+          {
+            "factor": "polarizing_filter",
+            "from": "absent",
+            "to": "installed"
+          },
+          {
+            "factor": "exposure_mode",
+            "from": "auto",
+            "to": "locked"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assertion-outcome-decode-comparison",
+      "domain_type": "field_research.outcome",
+      "statement": "Trial 2 recorded three successful decodes out of four observations, compared with one out of four in Trial 1.",
+      "domain_payload": {
+        "trial_1_successes": 1,
+        "trial_1_observations": 4,
+        "trial_2_successes": 3,
+        "trial_2_observations": 4
+      }
+    },
+    {
+      "id": "assertion-filter-caused-improvement-overclaim",
+      "domain_type": "field_research.evaluation",
+      "statement": "The polarizing filter caused the improved QR decoding result in Trial 2.",
+      "domain_payload": {
+        "causal_attribution": "filter-caused-improvement",
+        "scope": "rejected-candidate"
+      }
+    },
+    {
+      "id": "assertion-evaluation-noncausal",
+      "domain_type": "field_research.evaluation",
+      "statement": "More successful decodes were observed after the filter-and-lock configuration was introduced, but the causal contribution of the polarizing filter is not established.",
+      "domain_payload": {
+        "comparison": {
+          "trial_1_successes": 1,
+          "trial_1_observations": 4,
+          "trial_2_successes": 3,
+          "trial_2_observations": 4
+        },
+        "causal_attribution": "not-established",
+        "changed_factors": [
+          "polarizing_filter",
+          "exposure_mode"
+        ],
+        "additional_variation": [
+          "view_stability",
+          "motion_blur"
+        ]
+      }
+    },
+    {
+      "id": "assertion-decision-followup-factorial",
+      "domain_type": "field_research.decision",
+      "statement": "A follow-up trial should vary polarizing-filter use and exposure mode independently.",
+      "domain_payload": {
+        "future_design": "independent-factor-variation",
+        "factors": [
+          "polarizing_filter",
+          "exposure_mode"
+        ]
+      }
+    }
+  ]
+}

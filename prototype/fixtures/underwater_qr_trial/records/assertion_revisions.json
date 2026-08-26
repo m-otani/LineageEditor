@@ -1,0 +1,11 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "assertion-revision-causal-evaluation-correction",
+      "relation": "revised-from",
+      "new_assertion_id": "assertion-evaluation-noncausal",
+      "old_assertion_id": "assertion-filter-caused-improvement-overclaim"
+    }
+  ]
+}

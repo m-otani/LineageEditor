@@ -1,0 +1,225 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "run-prompt-line-01",
+      "method": "deterministic-comma-separated-prompt-parser",
+      "input_artifact_ids": [
+        "artifact-prompt-line-01"
+      ],
+      "output_assertion_ids": [
+        "assertion-token-line-01-001",
+        "assertion-token-line-01-002",
+        "assertion-token-line-01-003",
+        "assertion-token-line-01-004",
+        "assertion-token-line-01-005",
+        "assertion-token-line-01-006"
+      ]
+    },
+    {
+      "id": "run-prompt-line-02",
+      "method": "deterministic-comma-separated-prompt-parser",
+      "input_artifact_ids": [
+        "artifact-prompt-line-02"
+      ],
+      "output_assertion_ids": [
+        "assertion-token-line-02-001",
+        "assertion-token-line-02-002",
+        "assertion-token-line-02-003",
+        "assertion-token-line-02-004",
+        "assertion-token-line-02-005",
+        "assertion-token-line-02-006"
+      ]
+    },
+    {
+      "id": "run-prompt-line-03",
+      "method": "deterministic-comma-separated-prompt-parser",
+      "input_artifact_ids": [
+        "artifact-prompt-line-03"
+      ],
+      "output_assertion_ids": [
+        "assertion-token-line-03-001",
+        "assertion-token-line-03-002",
+        "assertion-token-line-03-003",
+        "assertion-token-line-03-004",
+        "assertion-token-line-03-005",
+        "assertion-token-line-03-006",
+        "assertion-token-line-03-007"
+      ]
+    },
+    {
+      "id": "run-prompt-line-04",
+      "method": "deterministic-comma-separated-prompt-parser",
+      "input_artifact_ids": [
+        "artifact-prompt-line-04"
+      ],
+      "output_assertion_ids": [
+        "assertion-token-line-04-001",
+        "assertion-token-line-04-002",
+        "assertion-token-line-04-003",
+        "assertion-token-line-04-004",
+        "assertion-token-line-04-005",
+        "assertion-token-line-04-006",
+        "assertion-token-line-04-007"
+      ]
+    },
+    {
+      "id": "run-prompt-line-05",
+      "method": "deterministic-comma-separated-prompt-parser",
+      "input_artifact_ids": [
+        "artifact-prompt-line-05"
+      ],
+      "output_assertion_ids": [
+        "assertion-token-line-05-001",
+        "assertion-token-line-05-002",
+        "assertion-token-line-05-003",
+        "assertion-token-line-05-004",
+        "assertion-token-line-05-005",
+        "assertion-token-line-05-006",
+        "assertion-token-line-05-007"
+      ]
+    },
+    {
+      "id": "run-prompt-line-06",
+      "method": "deterministic-comma-separated-prompt-parser",
+      "input_artifact_ids": [
+        "artifact-prompt-line-06"
+      ],
+      "output_assertion_ids": [
+        "assertion-token-line-06-001",
+        "assertion-token-line-06-002",
+        "assertion-token-line-06-003",
+        "assertion-token-line-06-004",
+        "assertion-token-line-06-005",
+        "assertion-token-line-06-006"
+      ]
+    },
+    {
+      "id": "run-prompt-branch-b1",
+      "method": "deterministic-comma-separated-prompt-parser",
+      "input_artifact_ids": [
+        "artifact-prompt-branch-b1"
+      ],
+      "output_assertion_ids": [
+        "assertion-token-branch-b1-001",
+        "assertion-token-branch-b1-002",
+        "assertion-token-branch-b1-003",
+        "assertion-token-branch-b1-004",
+        "assertion-token-branch-b1-005",
+        "assertion-token-branch-b1-006"
+      ]
+    },
+    {
+      "id": "run-prompt-branch-b2",
+      "method": "deterministic-comma-separated-prompt-parser",
+      "input_artifact_ids": [
+        "artifact-prompt-branch-b2"
+      ],
+      "output_assertion_ids": [
+        "assertion-token-branch-b2-001",
+        "assertion-token-branch-b2-002",
+        "assertion-token-branch-b2-003",
+        "assertion-token-branch-b2-004",
+        "assertion-token-branch-b2-005",
+        "assertion-token-branch-b2-006"
+      ]
+    },
+    {
+      "id": "run-manual-structure-v1",
+      "method": "manual-domain-interpretation",
+      "input_artifact_ids": [
+        "artifact-note-route-design",
+        "artifact-prompt-line-01",
+        "artifact-prompt-line-02",
+        "artifact-prompt-line-03",
+        "artifact-prompt-line-04",
+        "artifact-prompt-line-05",
+        "artifact-prompt-line-06",
+        "artifact-prompt-branch-b1",
+        "artifact-prompt-branch-b2"
+      ],
+      "output_assertion_ids": [
+        "assertion-project",
+        "assertion-route-a",
+        "assertion-route-b",
+        "assertion-branch-point-line-03",
+        "assertion-module-traveler",
+        "assertion-module-red-scarf",
+        "assertion-slot-held-item",
+        "assertion-slot-scarf-state",
+        "assertion-weather-local-v1"
+      ]
+    },
+    {
+      "id": "run-manual-umbrella-misclassification",
+      "method": "manual-domain-interpretation",
+      "input_artifact_ids": [
+        "artifact-line-03-candidate-a",
+        "artifact-prompt-line-03"
+      ],
+      "output_assertion_ids": [
+        "assertion-umbrella-identity-incorrect"
+      ]
+    },
+    {
+      "id": "run-manual-candidate-selection",
+      "method": "manual-domain-interpretation",
+      "input_artifact_ids": [
+        "artifact-note-candidate-selection",
+        "artifact-line-03-candidate-b",
+        "artifact-line-03-selected"
+      ],
+      "output_assertion_ids": [
+        "assertion-selected-line-03-artifact",
+        "assertion-umbrella-held-item-corrected"
+      ]
+    },
+    {
+      "id": "run-manual-scarf-ambiguity",
+      "method": "manual-domain-interpretation",
+      "input_artifact_ids": [
+        "artifact-prompt-line-04",
+        "artifact-image-line-04"
+      ],
+      "output_assertion_ids": [
+        "assertion-scarf-state-ambiguity"
+      ]
+    },
+    {
+      "id": "run-manual-weather-v2",
+      "method": "manual-structure-discovery",
+      "input_artifact_ids": [
+        "artifact-note-structure-discovery",
+        "artifact-prompt-line-01",
+        "artifact-prompt-line-02",
+        "artifact-prompt-line-03",
+        "artifact-prompt-line-04",
+        "artifact-prompt-line-05",
+        "artifact-prompt-line-06",
+        "artifact-prompt-branch-b1",
+        "artifact-prompt-branch-b2"
+      ],
+      "output_assertion_ids": [
+        "assertion-weather-state-domain-v2",
+        "assertion-weather-binding-line-01-v2",
+        "assertion-weather-binding-line-02-v2",
+        "assertion-weather-binding-line-03-v2",
+        "assertion-weather-binding-line-04-v2",
+        "assertion-weather-binding-line-05-v2",
+        "assertion-weather-binding-line-06-v2",
+        "assertion-weather-binding-branch-b1-v2",
+        "assertion-weather-binding-branch-b2-v2"
+      ]
+    },
+    {
+      "id": "run-manual-proposed-detail",
+      "method": "manual-domain-interpretation",
+      "input_artifact_ids": [
+        "artifact-image-line-01"
+      ],
+      "output_assertion_ids": [
+        "assertion-proposed-beacon-color"
+      ]
+    }
+  ]
+}

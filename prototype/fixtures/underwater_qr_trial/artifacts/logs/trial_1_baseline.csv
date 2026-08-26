@@ -1,0 +1,5 @@
+observation_id,trial_id,time_s,qr_visible,decode_result,glare_level,exposure_mode,note
+obs-b-001,trial-1-baseline,0,yes,failure,high,auto,strong reflection across code
+obs-b-002,trial-1-baseline,10,yes,failure,high,auto,partial code edge visible
+obs-b-003,trial-1-baseline,20,yes,success,medium,auto,brief stable angle
+obs-b-004,trial-1-baseline,30,no,failure,high,auto,vehicle yaw moved code out of view

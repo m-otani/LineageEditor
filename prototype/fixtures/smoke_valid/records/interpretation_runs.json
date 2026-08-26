@@ -1,0 +1,28 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "run-initial",
+      "method": "manual",
+      "input_artifact_ids": [
+        "artifact-source-note"
+      ],
+      "output_assertion_ids": [
+        "assertion-initial",
+        "assertion-rejected",
+        "assertion-ambiguous",
+        "assertion-proposed"
+      ]
+    },
+    {
+      "id": "run-revision",
+      "method": "manual",
+      "input_artifact_ids": [
+        "artifact-derived-note"
+      ],
+      "output_assertion_ids": [
+        "assertion-revised"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "evidence-baseline-summary-log",
+      "assertion_id": "assertion-baseline-decode-summary",
+      "artifact_id": "artifact-log-trial-1",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 2,
+        "end": 5
+      }
+    },
+    {
+      "id": "evidence-glare-cooccurrence-log",
+      "assertion_id": "assertion-glare-failure-cooccurrence",
+      "artifact_id": "artifact-log-trial-1",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 2,
+        "end": 5
+      }
+    },
+    {
+      "id": "evidence-glare-cooccurrence-schematic",
+      "assertion_id": "assertion-glare-failure-cooccurrence",
+      "artifact_id": "artifact-image-baseline-glare",
+      "polarity": "supports",
+      "locator": {
+        "kind": "file"
+      }
+    },
+    {
+      "id": "evidence-reflection-hypothesis-meeting",
+      "assertion_id": "assertion-reflection-hypothesis",
+      "artifact_id": "artifact-note-meeting",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "id": "evidence-exposure-hypothesis-meeting",
+      "assertion_id": "assertion-exposure-hypothesis",
+      "artifact_id": "artifact-note-meeting",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "id": "evidence-action-equipment-log",
+      "assertion_id": "assertion-action-filter-lock",
+      "artifact_id": "artifact-note-equipment-change",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "id": "evidence-outcome-summary",
+      "assertion_id": "assertion-outcome-decode-comparison",
+      "artifact_id": "artifact-trial-2-summary",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 1,
+        "end": 5
+      }
+    },
+    {
+      "id": "evidence-evaluation-review-note",
+      "assertion_id": "assertion-evaluation-noncausal",
+      "artifact_id": "artifact-note-review",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 1,
+        "end": 4
+      }
+    }
+  ]
+}

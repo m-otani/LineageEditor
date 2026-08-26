@@ -1,0 +1,10 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "artifact-derivation-trial-2-summary",
+      "new_artifact_id": "artifact-trial-2-summary",
+      "earlier_artifact_id": "artifact-log-trial-2"
+    }
+  ]
+}

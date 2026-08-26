@@ -1,0 +1,23 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "assertion-revision-umbrella-correction",
+      "relation": "revised-from",
+      "new_assertion_id": "assertion-umbrella-held-item-corrected",
+      "old_assertion_id": "assertion-umbrella-identity-incorrect"
+    },
+    {
+      "id": "assertion-revision-weather-reinterpretation",
+      "relation": "revised-from",
+      "new_assertion_id": "assertion-weather-state-domain-v2",
+      "old_assertion_id": "assertion-weather-local-v1"
+    },
+    {
+      "id": "assertion-revision-weather-supersession",
+      "relation": "supersedes",
+      "new_assertion_id": "assertion-weather-state-domain-v2",
+      "old_assertion_id": "assertion-weather-local-v1"
+    }
+  ]
+}

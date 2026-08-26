@@ -1,0 +1,13 @@
+{
+  "format_version": "0.1",
+  "entries": [
+    {
+      "trial_id": "trial-1-baseline",
+      "log_artifact_id": "artifact-log-trial-1"
+    },
+    {
+      "trial_id": "trial-2-filter-lock",
+      "log_artifact_id": "artifact-log-trial-2"
+    }
+  ]
+}

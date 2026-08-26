@@ -1,0 +1,17 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "assertion-revision-lineage",
+      "relation": "revised-from",
+      "new_assertion_id": "assertion-revised",
+      "old_assertion_id": "assertion-initial"
+    },
+    {
+      "id": "assertion-revision-supersession",
+      "relation": "supersedes",
+      "new_assertion_id": "assertion-revised",
+      "old_assertion_id": "assertion-initial"
+    }
+  ]
+}

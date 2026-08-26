@@ -1,0 +1,90 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "run-observation-log-trial-1-baseline",
+      "method": "deterministic-field-observation-csv-parser",
+      "input_artifact_ids": [
+        "artifact-log-trial-1"
+      ],
+      "output_assertion_ids": [
+        "assertion-observation-row-obs-b-001",
+        "assertion-observation-row-obs-b-002",
+        "assertion-observation-row-obs-b-003",
+        "assertion-observation-row-obs-b-004"
+      ]
+    },
+    {
+      "id": "run-observation-log-trial-2-filter-lock",
+      "method": "deterministic-field-observation-csv-parser",
+      "input_artifact_ids": [
+        "artifact-log-trial-2"
+      ],
+      "output_assertion_ids": [
+        "assertion-observation-row-obs-f-001",
+        "assertion-observation-row-obs-f-002",
+        "assertion-observation-row-obs-f-003",
+        "assertion-observation-row-obs-f-004"
+      ]
+    },
+    {
+      "id": "run-manual-baseline-interpretation",
+      "method": "manual-domain-interpretation",
+      "input_artifact_ids": [
+        "artifact-log-trial-1",
+        "artifact-image-baseline-glare"
+      ],
+      "output_assertion_ids": [
+        "assertion-baseline-decode-summary",
+        "assertion-glare-failure-cooccurrence",
+        "assertion-reflection-hypothesis",
+        "assertion-exposure-hypothesis"
+      ]
+    },
+    {
+      "id": "run-manual-trial-2-planning",
+      "method": "manual-domain-interpretation",
+      "input_artifact_ids": [
+        "artifact-note-meeting"
+      ],
+      "output_assertion_ids": [
+        "assertion-decision-test-filter-lock"
+      ]
+    },
+    {
+      "id": "run-manual-trial-2-action",
+      "method": "manual-domain-interpretation",
+      "input_artifact_ids": [
+        "artifact-note-equipment-change",
+        "artifact-image-filter-lock"
+      ],
+      "output_assertion_ids": [
+        "assertion-action-filter-lock"
+      ]
+    },
+    {
+      "id": "run-manual-outcome-comparison",
+      "method": "manual-domain-interpretation",
+      "input_artifact_ids": [
+        "artifact-log-trial-1",
+        "artifact-log-trial-2",
+        "artifact-trial-2-summary"
+      ],
+      "output_assertion_ids": [
+        "assertion-outcome-decode-comparison",
+        "assertion-filter-caused-improvement-overclaim"
+      ]
+    },
+    {
+      "id": "run-manual-evaluation-correction",
+      "method": "manual-domain-interpretation",
+      "input_artifact_ids": [
+        "artifact-note-review"
+      ],
+      "output_assertion_ids": [
+        "assertion-evaluation-noncausal",
+        "assertion-decision-followup-factorial"
+      ]
+    }
+  ]
+}

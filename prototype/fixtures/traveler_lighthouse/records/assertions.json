@@ -1,0 +1,866 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "assertion-token-line-01-001",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-01 contains prompt token 1: traveler.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-01",
+        "sequence_index": 1,
+        "token_index": 1,
+        "token_text": "traveler"
+      }
+    },
+    {
+      "id": "assertion-token-line-01-002",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-01 contains prompt token 2: red scarf.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-01",
+        "sequence_index": 1,
+        "token_index": 2,
+        "token_text": "red scarf"
+      }
+    },
+    {
+      "id": "assertion-token-line-01-003",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-01 contains prompt token 3: coastal path.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-01",
+        "sequence_index": 1,
+        "token_index": 3,
+        "token_text": "coastal path"
+      }
+    },
+    {
+      "id": "assertion-token-line-01-004",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-01 contains prompt token 4: clear weather.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-01",
+        "sequence_index": 1,
+        "token_index": 4,
+        "token_text": "clear weather"
+      }
+    },
+    {
+      "id": "assertion-token-line-01-005",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-01 contains prompt token 5: no umbrella.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-01",
+        "sequence_index": 1,
+        "token_index": 5,
+        "token_text": "no umbrella"
+      }
+    },
+    {
+      "id": "assertion-token-line-01-006",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-01 contains prompt token 6: lighthouse distant.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-01",
+        "sequence_index": 1,
+        "token_index": 6,
+        "token_text": "lighthouse distant"
+      }
+    },
+    {
+      "id": "assertion-token-line-02-001",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-02 contains prompt token 1: traveler.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-02",
+        "sequence_index": 2,
+        "token_index": 1,
+        "token_text": "traveler"
+      }
+    },
+    {
+      "id": "assertion-token-line-02-002",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-02 contains prompt token 2: red scarf.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-02",
+        "sequence_index": 2,
+        "token_index": 2,
+        "token_text": "red scarf"
+      }
+    },
+    {
+      "id": "assertion-token-line-02-003",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-02 contains prompt token 3: coastal path.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-02",
+        "sequence_index": 2,
+        "token_index": 3,
+        "token_text": "coastal path"
+      }
+    },
+    {
+      "id": "assertion-token-line-02-004",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-02 contains prompt token 4: cloudy weather.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-02",
+        "sequence_index": 2,
+        "token_index": 4,
+        "token_text": "cloudy weather"
+      }
+    },
+    {
+      "id": "assertion-token-line-02-005",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-02 contains prompt token 5: no umbrella.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-02",
+        "sequence_index": 2,
+        "token_index": 5,
+        "token_text": "no umbrella"
+      }
+    },
+    {
+      "id": "assertion-token-line-02-006",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-02 contains prompt token 6: lighthouse closer.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-02",
+        "sequence_index": 2,
+        "token_index": 6,
+        "token_text": "lighthouse closer"
+      }
+    },
+    {
+      "id": "assertion-token-line-03-001",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-03 contains prompt token 1: traveler.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-03",
+        "sequence_index": 3,
+        "token_index": 1,
+        "token_text": "traveler"
+      }
+    },
+    {
+      "id": "assertion-token-line-03-002",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-03 contains prompt token 2: red scarf.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-03",
+        "sequence_index": 3,
+        "token_index": 2,
+        "token_text": "red scarf"
+      }
+    },
+    {
+      "id": "assertion-token-line-03-003",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-03 contains prompt token 3: coastal path.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-03",
+        "sequence_index": 3,
+        "token_index": 3,
+        "token_text": "coastal path"
+      }
+    },
+    {
+      "id": "assertion-token-line-03-004",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-03 contains prompt token 4: light rain.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-03",
+        "sequence_index": 3,
+        "token_index": 4,
+        "token_text": "light rain"
+      }
+    },
+    {
+      "id": "assertion-token-line-03-005",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-03 contains prompt token 5: damp scarf.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-03",
+        "sequence_index": 3,
+        "token_index": 5,
+        "token_text": "damp scarf"
+      }
+    },
+    {
+      "id": "assertion-token-line-03-006",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-03 contains prompt token 6: umbrella.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-03",
+        "sequence_index": 3,
+        "token_index": 6,
+        "token_text": "umbrella"
+      }
+    },
+    {
+      "id": "assertion-token-line-03-007",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-03 contains prompt token 7: fork in path.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-03",
+        "sequence_index": 3,
+        "token_index": 7,
+        "token_text": "fork in path"
+      }
+    },
+    {
+      "id": "assertion-token-line-04-001",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-04 contains prompt token 1: traveler.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-04",
+        "sequence_index": 4,
+        "token_index": 1,
+        "token_text": "traveler"
+      }
+    },
+    {
+      "id": "assertion-token-line-04-002",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-04 contains prompt token 2: red scarf.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-04",
+        "sequence_index": 4,
+        "token_index": 2,
+        "token_text": "red scarf"
+      }
+    },
+    {
+      "id": "assertion-token-line-04-003",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-04 contains prompt token 3: coastal path.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-04",
+        "sequence_index": 4,
+        "token_index": 3,
+        "token_text": "coastal path"
+      }
+    },
+    {
+      "id": "assertion-token-line-04-004",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-04 contains prompt token 4: heavy rain.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-04",
+        "sequence_index": 4,
+        "token_index": 4,
+        "token_text": "heavy rain"
+      }
+    },
+    {
+      "id": "assertion-token-line-04-005",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-04 contains prompt token 5: wet scarf.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-04",
+        "sequence_index": 4,
+        "token_index": 5,
+        "token_text": "wet scarf"
+      }
+    },
+    {
+      "id": "assertion-token-line-04-006",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-04 contains prompt token 6: umbrella.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-04",
+        "sequence_index": 4,
+        "token_index": 6,
+        "token_text": "umbrella"
+      }
+    },
+    {
+      "id": "assertion-token-line-04-007",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-04 contains prompt token 7: lighthouse nearby.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-04",
+        "sequence_index": 4,
+        "token_index": 7,
+        "token_text": "lighthouse nearby"
+      }
+    },
+    {
+      "id": "assertion-token-line-05-001",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-05 contains prompt token 1: traveler.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-05",
+        "sequence_index": 5,
+        "token_index": 1,
+        "token_text": "traveler"
+      }
+    },
+    {
+      "id": "assertion-token-line-05-002",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-05 contains prompt token 2: red scarf.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-05",
+        "sequence_index": 5,
+        "token_index": 2,
+        "token_text": "red scarf"
+      }
+    },
+    {
+      "id": "assertion-token-line-05-003",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-05 contains prompt token 3: coastal path.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-05",
+        "sequence_index": 5,
+        "token_index": 3,
+        "token_text": "coastal path"
+      }
+    },
+    {
+      "id": "assertion-token-line-05-004",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-05 contains prompt token 4: after rain.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-05",
+        "sequence_index": 5,
+        "token_index": 4,
+        "token_text": "after rain"
+      }
+    },
+    {
+      "id": "assertion-token-line-05-005",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-05 contains prompt token 5: damp scarf.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-05",
+        "sequence_index": 5,
+        "token_index": 5,
+        "token_text": "damp scarf"
+      }
+    },
+    {
+      "id": "assertion-token-line-05-006",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-05 contains prompt token 6: no umbrella.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-05",
+        "sequence_index": 5,
+        "token_index": 6,
+        "token_text": "no umbrella"
+      }
+    },
+    {
+      "id": "assertion-token-line-05-007",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-05 contains prompt token 7: lighthouse entrance.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-05",
+        "sequence_index": 5,
+        "token_index": 7,
+        "token_text": "lighthouse entrance"
+      }
+    },
+    {
+      "id": "assertion-token-line-06-001",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-06 contains prompt token 1: traveler.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-06",
+        "sequence_index": 6,
+        "token_index": 1,
+        "token_text": "traveler"
+      }
+    },
+    {
+      "id": "assertion-token-line-06-002",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-06 contains prompt token 2: red scarf.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-06",
+        "sequence_index": 6,
+        "token_index": 2,
+        "token_text": "red scarf"
+      }
+    },
+    {
+      "id": "assertion-token-line-06-003",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-06 contains prompt token 3: inside lighthouse.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-06",
+        "sequence_index": 6,
+        "token_index": 3,
+        "token_text": "inside lighthouse"
+      }
+    },
+    {
+      "id": "assertion-token-line-06-004",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-06 contains prompt token 4: after rain.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-06",
+        "sequence_index": 6,
+        "token_index": 4,
+        "token_text": "after rain"
+      }
+    },
+    {
+      "id": "assertion-token-line-06-005",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-06 contains prompt token 5: dry scarf.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-06",
+        "sequence_index": 6,
+        "token_index": 5,
+        "token_text": "dry scarf"
+      }
+    },
+    {
+      "id": "assertion-token-line-06-006",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "line-06 contains prompt token 6: no umbrella.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_id": "line-06",
+        "sequence_index": 6,
+        "token_index": 6,
+        "token_text": "no umbrella"
+      }
+    },
+    {
+      "id": "assertion-token-branch-b1-001",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "branch-b1 contains prompt token 1: traveler.",
+      "domain_payload": {
+        "route_id": "route-b",
+        "line_id": "branch-b1",
+        "sequence_index": 1,
+        "token_index": 1,
+        "token_text": "traveler"
+      }
+    },
+    {
+      "id": "assertion-token-branch-b1-002",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "branch-b1 contains prompt token 2: red scarf.",
+      "domain_payload": {
+        "route_id": "route-b",
+        "line_id": "branch-b1",
+        "sequence_index": 1,
+        "token_index": 2,
+        "token_text": "red scarf"
+      }
+    },
+    {
+      "id": "assertion-token-branch-b1-003",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "branch-b1 contains prompt token 3: heavy rain.",
+      "domain_payload": {
+        "route_id": "route-b",
+        "line_id": "branch-b1",
+        "sequence_index": 1,
+        "token_index": 3,
+        "token_text": "heavy rain"
+      }
+    },
+    {
+      "id": "assertion-token-branch-b1-004",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "branch-b1 contains prompt token 4: wet scarf.",
+      "domain_payload": {
+        "route_id": "route-b",
+        "line_id": "branch-b1",
+        "sequence_index": 1,
+        "token_index": 4,
+        "token_text": "wet scarf"
+      }
+    },
+    {
+      "id": "assertion-token-branch-b1-005",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "branch-b1 contains prompt token 5: umbrella.",
+      "domain_payload": {
+        "route_id": "route-b",
+        "line_id": "branch-b1",
+        "sequence_index": 1,
+        "token_index": 5,
+        "token_text": "umbrella"
+      }
+    },
+    {
+      "id": "assertion-token-branch-b1-006",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "branch-b1 contains prompt token 6: shelter entrance.",
+      "domain_payload": {
+        "route_id": "route-b",
+        "line_id": "branch-b1",
+        "sequence_index": 1,
+        "token_index": 6,
+        "token_text": "shelter entrance"
+      }
+    },
+    {
+      "id": "assertion-token-branch-b2-001",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "branch-b2 contains prompt token 1: traveler.",
+      "domain_payload": {
+        "route_id": "route-b",
+        "line_id": "branch-b2",
+        "sequence_index": 2,
+        "token_index": 1,
+        "token_text": "traveler"
+      }
+    },
+    {
+      "id": "assertion-token-branch-b2-002",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "branch-b2 contains prompt token 2: red scarf.",
+      "domain_payload": {
+        "route_id": "route-b",
+        "line_id": "branch-b2",
+        "sequence_index": 2,
+        "token_index": 2,
+        "token_text": "red scarf"
+      }
+    },
+    {
+      "id": "assertion-token-branch-b2-003",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "branch-b2 contains prompt token 3: inside shelter.",
+      "domain_payload": {
+        "route_id": "route-b",
+        "line_id": "branch-b2",
+        "sequence_index": 2,
+        "token_index": 3,
+        "token_text": "inside shelter"
+      }
+    },
+    {
+      "id": "assertion-token-branch-b2-004",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "branch-b2 contains prompt token 4: after rain.",
+      "domain_payload": {
+        "route_id": "route-b",
+        "line_id": "branch-b2",
+        "sequence_index": 2,
+        "token_index": 4,
+        "token_text": "after rain"
+      }
+    },
+    {
+      "id": "assertion-token-branch-b2-005",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "branch-b2 contains prompt token 5: damp scarf.",
+      "domain_payload": {
+        "route_id": "route-b",
+        "line_id": "branch-b2",
+        "sequence_index": 2,
+        "token_index": 5,
+        "token_text": "damp scarf"
+      }
+    },
+    {
+      "id": "assertion-token-branch-b2-006",
+      "domain_type": "visual_narrative.prompt_token",
+      "statement": "branch-b2 contains prompt token 6: no umbrella.",
+      "domain_payload": {
+        "route_id": "route-b",
+        "line_id": "branch-b2",
+        "sequence_index": 2,
+        "token_index": 6,
+        "token_text": "no umbrella"
+      }
+    },
+    {
+      "id": "assertion-project",
+      "domain_type": "visual_narrative.project",
+      "statement": "The project is The Red-Scarf Traveler and the Lighthouse.",
+      "domain_payload": {
+        "project_id": "traveler-lighthouse-project"
+      }
+    },
+    {
+      "id": "assertion-route-a",
+      "domain_type": "visual_narrative.route",
+      "statement": "Route A contains line-01 through line-06.",
+      "domain_payload": {
+        "route_id": "route-a",
+        "line_ids": [
+          "line-01",
+          "line-02",
+          "line-03",
+          "line-04",
+          "line-05",
+          "line-06"
+        ]
+      }
+    },
+    {
+      "id": "assertion-route-b",
+      "domain_type": "visual_narrative.route",
+      "statement": "Route B is a deliberate shelter branch from line-03.",
+      "domain_payload": {
+        "route_id": "route-b",
+        "line_ids": [
+          "branch-b1",
+          "branch-b2"
+        ],
+        "branches_from_line_id": "line-03"
+      }
+    },
+    {
+      "id": "assertion-branch-point-line-03",
+      "domain_type": "visual_narrative.line",
+      "statement": "line-03 is the branch point from Route A to Route B.",
+      "domain_payload": {
+        "line_id": "line-03",
+        "source_route_id": "route-a",
+        "branch_route_id": "route-b"
+      }
+    },
+    {
+      "id": "assertion-module-traveler",
+      "domain_type": "visual_narrative.module",
+      "statement": "The traveler is a persistent visual-narrative Module.",
+      "domain_payload": {
+        "module_id": "traveler"
+      }
+    },
+    {
+      "id": "assertion-module-red-scarf",
+      "domain_type": "visual_narrative.module",
+      "statement": "The red scarf is a persistent identity-related component.",
+      "domain_payload": {
+        "module_id": "red-scarf",
+        "associated_module_id": "traveler"
+      }
+    },
+    {
+      "id": "assertion-slot-held-item",
+      "domain_type": "visual_narrative.attribute_slot",
+      "statement": "held_item is an AttributeSlot for the traveler.",
+      "domain_payload": {
+        "slot_id": "held_item",
+        "module_id": "traveler",
+        "values": [
+          "none",
+          "umbrella"
+        ]
+      }
+    },
+    {
+      "id": "assertion-slot-scarf-state",
+      "domain_type": "visual_narrative.attribute_slot",
+      "statement": "scarf_state is an AttributeSlot for the red scarf.",
+      "domain_payload": {
+        "slot_id": "scarf_state",
+        "module_id": "red-scarf",
+        "values": [
+          "dry",
+          "damp",
+          "wet"
+        ]
+      }
+    },
+    {
+      "id": "assertion-selected-line-03-artifact",
+      "domain_type": "visual_narrative.selected_artifact",
+      "statement": "The selected visual Artifact for line-03 is artifact-line-03-selected.",
+      "domain_payload": {
+        "line_id": "line-03",
+        "artifact_id": "artifact-line-03-selected"
+      }
+    },
+    {
+      "id": "assertion-umbrella-identity-incorrect",
+      "domain_type": "visual_narrative.module",
+      "statement": "Umbrella is part of the traveler identity Module.",
+      "domain_payload": {
+        "module_id": "traveler",
+        "identity_component": "umbrella"
+      }
+    },
+    {
+      "id": "assertion-umbrella-held-item-corrected",
+      "domain_type": "visual_narrative.line_binding",
+      "statement": "Umbrella is the held_item value for the rainy lines where it is carried.",
+      "domain_payload": {
+        "line_ids": [
+          "line-03",
+          "line-04",
+          "branch-b1"
+        ],
+        "slot_id": "held_item",
+        "state_value": "umbrella"
+      }
+    },
+    {
+      "id": "assertion-scarf-state-ambiguity",
+      "domain_type": "visual_narrative.line_binding",
+      "statement": "The scarf in line-04 may be interpreted as damp or wet.",
+      "domain_payload": {
+        "line_id": "line-04",
+        "slot_id": "scarf_state",
+        "candidate_values": [
+          "damp",
+          "wet"
+        ]
+      }
+    },
+    {
+      "id": "assertion-weather-local-v1",
+      "domain_type": "visual_narrative.local_prompt_interpretation",
+      "statement": "Weather tokens are treated as local prompt-fragment interpretations in Revision 1.",
+      "domain_payload": {
+        "scope": "individual-lines",
+        "interpretation": "local-weather-fragments"
+      }
+    },
+    {
+      "id": "assertion-weather-state-domain-v2",
+      "domain_type": "visual_narrative.state_domain",
+      "statement": "Revision 2 represents weather as an explicit StateDomain.",
+      "domain_payload": {
+        "state_domain_id": "weather",
+        "values": [
+          "clear",
+          "cloudy",
+          "light_rain",
+          "heavy_rain",
+          "after_rain"
+        ]
+      }
+    },
+    {
+      "id": "assertion-weather-binding-line-01-v2",
+      "domain_type": "visual_narrative.line_binding",
+      "statement": "line-01 binds weather to clear.",
+      "domain_payload": {
+        "line_id": "line-01",
+        "slot_id": "weather",
+        "state_value": "clear"
+      }
+    },
+    {
+      "id": "assertion-weather-binding-line-02-v2",
+      "domain_type": "visual_narrative.line_binding",
+      "statement": "line-02 binds weather to cloudy.",
+      "domain_payload": {
+        "line_id": "line-02",
+        "slot_id": "weather",
+        "state_value": "cloudy"
+      }
+    },
+    {
+      "id": "assertion-weather-binding-line-03-v2",
+      "domain_type": "visual_narrative.line_binding",
+      "statement": "line-03 binds weather to light_rain.",
+      "domain_payload": {
+        "line_id": "line-03",
+        "slot_id": "weather",
+        "state_value": "light_rain"
+      }
+    },
+    {
+      "id": "assertion-weather-binding-line-04-v2",
+      "domain_type": "visual_narrative.line_binding",
+      "statement": "line-04 binds weather to heavy_rain.",
+      "domain_payload": {
+        "line_id": "line-04",
+        "slot_id": "weather",
+        "state_value": "heavy_rain"
+      }
+    },
+    {
+      "id": "assertion-weather-binding-line-05-v2",
+      "domain_type": "visual_narrative.line_binding",
+      "statement": "line-05 binds weather to after_rain.",
+      "domain_payload": {
+        "line_id": "line-05",
+        "slot_id": "weather",
+        "state_value": "after_rain"
+      }
+    },
+    {
+      "id": "assertion-weather-binding-line-06-v2",
+      "domain_type": "visual_narrative.line_binding",
+      "statement": "line-06 binds weather to after_rain.",
+      "domain_payload": {
+        "line_id": "line-06",
+        "slot_id": "weather",
+        "state_value": "after_rain"
+      }
+    },
+    {
+      "id": "assertion-weather-binding-branch-b1-v2",
+      "domain_type": "visual_narrative.line_binding",
+      "statement": "branch-b1 binds weather to heavy_rain.",
+      "domain_payload": {
+        "line_id": "branch-b1",
+        "slot_id": "weather",
+        "state_value": "heavy_rain"
+      }
+    },
+    {
+      "id": "assertion-weather-binding-branch-b2-v2",
+      "domain_type": "visual_narrative.line_binding",
+      "statement": "branch-b2 binds weather to after_rain.",
+      "domain_payload": {
+        "line_id": "branch-b2",
+        "slot_id": "weather",
+        "state_value": "after_rain"
+      }
+    },
+    {
+      "id": "assertion-proposed-beacon-color",
+      "domain_type": "visual_narrative.line",
+      "statement": "The lighthouse beacon color may be blue.",
+      "domain_payload": {
+        "line_id": "line-01",
+        "candidate_detail": "blue-beacon"
+      }
+    }
+  ]
+}

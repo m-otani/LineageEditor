@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180">
+  <rect width="320" height="180" fill="#bfe3f2"/>
+  <rect y="118" width="320" height="62" fill="#65a86e"/>
+  <path d="M40 180 L180 110 L235 180" fill="#d8c9a2"/>
+  <rect x="270" y="48" width="22" height="70" fill="#f4f1e8" stroke="#24313a"/>
+  <polygon points="267,48 295,48 281,30" fill="#d94a4a"/>
+  <circle cx="95" cy="88" r="10" fill="#f1c9a5"/>
+  <line x1="95" y1="98" x2="95" y2="135" stroke="#24313a" stroke-width="5"/>
+  <path d="M82 106 Q96 113 112 104" fill="none" stroke="#cf2f3c" stroke-width="7"/>
+  <text x="12" y="24" font-family="sans-serif" font-size="14" font-weight="bold">line-01 | clear | lighthouse distant</text>
+</svg>

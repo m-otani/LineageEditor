@@ -1,0 +1,45 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "review-initial-accepted",
+      "assertion_id": "assertion-initial",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "note": "Accepted for the neutral smoke fixture.",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "id": "review-revised-provisional",
+      "assertion_id": "assertion-revised",
+      "outcome": "provisional",
+      "reviewer": "fixture-reviewer",
+      "note": "Provisionally included in the first revision.",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "id": "review-rejected",
+      "assertion_id": "assertion-rejected",
+      "outcome": "rejected",
+      "reviewer": "fixture-reviewer",
+      "note": "Rejected but preserved as a candidate.",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "id": "review-ambiguous",
+      "assertion_id": "assertion-ambiguous",
+      "outcome": "ambiguous",
+      "reviewer": "fixture-reviewer",
+      "note": "Ambiguous and preserved outside active membership.",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "id": "review-revised-accepted",
+      "assertion_id": "assertion-revised",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "note": "Accepted in the later revision.",
+      "supersedes_review_decision_id": "review-revised-provisional"
+    }
+  ]
+}

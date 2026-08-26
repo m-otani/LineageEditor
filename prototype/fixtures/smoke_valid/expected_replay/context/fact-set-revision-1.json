@@ -1,0 +1,199 @@
+{
+  "active_assertions": [
+    {
+      "assertion": {
+        "domain_type": "smoke.claim",
+        "id": "assertion-initial",
+        "statement": "The neutral source contains an initial claim."
+      },
+      "assertion_revision_relation_ids": [
+        "assertion-revision-lineage"
+      ],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [
+        "evidence-initial"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-initial"
+      ],
+      "selected_review_decision_id": "review-initial-accepted"
+    },
+    {
+      "assertion": {
+        "domain_type": "smoke.claim",
+        "id": "assertion-revised",
+        "statement": "A revised neutral claim remains source-linked."
+      },
+      "assertion_revision_relation_ids": [
+        "assertion-revision-lineage"
+      ],
+      "derived_display_state": "provisional",
+      "direct_evidence_link_ids": [],
+      "producing_interpretation_run_ids": [
+        "run-revision"
+      ],
+      "selected_review_decision_id": "review-revised-provisional"
+    }
+  ],
+  "bundle_type": "lineage-editor-context",
+  "derived_state_counts": {
+    "accepted": 1,
+    "ambiguous": 1,
+    "proposed": 1,
+    "provisional": 1,
+    "rejected": 1,
+    "superseded": 0
+  },
+  "evidence_links": [
+    {
+      "artifact_id": "artifact-source-note",
+      "assertion_id": "assertion-initial",
+      "id": "evidence-initial",
+      "locator": {
+        "end": 2,
+        "kind": "text-lines",
+        "start": 1
+      },
+      "polarity": "supports"
+    }
+  ],
+  "format_version": "0.1",
+  "interpretation_runs": [
+    {
+      "id": "run-initial",
+      "input_artifact_ids": [
+        "artifact-source-note"
+      ],
+      "method": "manual",
+      "output_assertion_ids": [
+        "assertion-initial",
+        "assertion-rejected",
+        "assertion-ambiguous",
+        "assertion-proposed"
+      ]
+    },
+    {
+      "id": "run-revision",
+      "input_artifact_ids": [
+        "artifact-derived-note"
+      ],
+      "method": "manual",
+      "output_assertion_ids": [
+        "assertion-revised"
+      ]
+    }
+  ],
+  "project": {
+    "domain_id": "smoke-domain",
+    "format_version": "0.1",
+    "project_id": "smoke-project",
+    "title": "Neutral shared-core smoke fixture"
+  },
+  "referenced_artifacts": [
+    {
+      "evidence_locators": [],
+      "excerpts": [],
+      "id": "artifact-derived-note",
+      "media_type": "text/plain",
+      "path": "artifacts/derived_note.txt",
+      "roles": [
+        "production-record",
+        "generated-output"
+      ],
+      "sha256": "e3d7fcc1f7f08288af4314b0f2378748f7ae3ede6badca42a4e0b9d8bedb1fca"
+    },
+    {
+      "evidence_locators": [
+        {
+          "evidence_link_id": "evidence-initial",
+          "locator": {
+            "end": 2,
+            "kind": "text-lines",
+            "start": 1
+          }
+        }
+      ],
+      "excerpts": [
+        {
+          "end": 2,
+          "evidence_link_id": "evidence-initial",
+          "kind": "text-lines",
+          "lines": [
+            "Neutral source note.",
+            "The initial statement is available for review."
+          ],
+          "start": 1
+        }
+      ],
+      "id": "artifact-source-note",
+      "media_type": "text/plain",
+      "path": "artifacts/source_note.txt",
+      "roles": [
+        "source-evidence"
+      ],
+      "sha256": "751324b29b6c88144bf625a38461c6d49b8270f407e3c8950141e6f3e38b67e9"
+    }
+  ],
+  "related_inactive_assertions": [],
+  "revision": {
+    "active_assertion_ids": [
+      "assertion-initial",
+      "assertion-revised"
+    ],
+    "assertion_revision_relation_ids": [
+      "assertion-revision-lineage"
+    ],
+    "domain_id": "smoke-domain",
+    "effective_review_decision_ids": [
+      "review-initial-accepted",
+      "review-revised-provisional",
+      "review-rejected",
+      "review-ambiguous"
+    ],
+    "id": "fact-set-revision-1",
+    "previous_revision_id": null,
+    "project_id": "smoke-project"
+  },
+  "selected_assertion_revision_relations": [
+    {
+      "id": "assertion-revision-lineage",
+      "new_assertion_id": "assertion-revised",
+      "old_assertion_id": "assertion-initial",
+      "relation": "revised-from"
+    }
+  ],
+  "selected_review_decisions": [
+    {
+      "assertion_id": "assertion-ambiguous",
+      "id": "review-ambiguous",
+      "note": "Ambiguous and preserved outside active membership.",
+      "outcome": "ambiguous",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-initial",
+      "id": "review-initial-accepted",
+      "note": "Accepted for the neutral smoke fixture.",
+      "outcome": "accepted",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-rejected",
+      "id": "review-rejected",
+      "note": "Rejected but preserved as a candidate.",
+      "outcome": "rejected",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-revised",
+      "id": "review-revised-provisional",
+      "note": "Provisionally included in the first revision.",
+      "outcome": "provisional",
+      "reviewer": "fixture-reviewer",
+      "supersedes_review_decision_id": null
+    }
+  ]
+}

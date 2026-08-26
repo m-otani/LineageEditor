@@ -1,0 +1,24 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "artifact-source-note",
+      "path": "artifacts/source_note.txt",
+      "sha256": "751324b29b6c88144bf625a38461c6d49b8270f407e3c8950141e6f3e38b67e9",
+      "roles": [
+        "source-evidence"
+      ],
+      "media_type": "text/plain"
+    },
+    {
+      "id": "artifact-derived-note",
+      "path": "artifacts/derived_note.txt",
+      "sha256": "e3d7fcc1f7f08288af4314b0f2378748f7ae3ede6badca42a4e0b9d8bedb1fca",
+      "roles": [
+        "production-record",
+        "generated-output"
+      ],
+      "media_type": "text/plain"
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "active_assertions": [
+    {
+      "assertion": {
+        "domain_payload": {
+          "failures": 3,
+          "observations": 4,
+          "successes": 1,
+          "trial_id": "trial-1-baseline"
+        },
+        "domain_type": "field_research.observation",
+        "id": "assertion-baseline-decode-summary",
+        "statement": "Trial 1 recorded one successful QR decode and three failures across four observations."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [
+        "evidence-baseline-summary-log"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-baseline-interpretation"
+      ],
+      "selected_review_decision_id": "review-baseline-summary-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "planned_changes": [
+            "polarizing_filter",
+            "exposure_mode"
+          ],
+          "planned_trial_id": "trial-2-filter-lock"
+        },
+        "domain_type": "field_research.decision",
+        "id": "assertion-decision-test-filter-lock",
+        "statement": "The project decision is to test a polarizing-filter and locked-exposure configuration in Trial 2."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "provisional",
+      "direct_evidence_link_ids": [],
+      "producing_interpretation_run_ids": [
+        "run-manual-trial-2-planning"
+      ],
+      "selected_review_decision_id": "review-trial-2-decision-provisional"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "failures_during_high_glare": 3,
+          "high_glare_observations": 3,
+          "relationship": "co-occurrence",
+          "trial_id": "trial-1-baseline"
+        },
+        "domain_type": "field_research.interpretation",
+        "id": "assertion-glare-failure-cooccurrence",
+        "statement": "High-glare observations in Trial 1 coincided with repeated decode failures."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "accepted",
+      "direct_evidence_link_ids": [
+        "evidence-glare-cooccurrence-log",
+        "evidence-glare-cooccurrence-schematic"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-baseline-interpretation"
+      ],
+      "selected_review_decision_id": "review-glare-cooccurrence-accepted"
+    },
+    {
+      "assertion": {
+        "domain_payload": {
+          "possible_factor": "reflected_light",
+          "trial_id": "trial-1-baseline"
+        },
+        "domain_type": "field_research.hypothesis",
+        "id": "assertion-reflection-hypothesis",
+        "statement": "Reflected light may have reduced QR visibility during some Trial 1 observations."
+      },
+      "assertion_revision_relation_ids": [],
+      "derived_display_state": "provisional",
+      "direct_evidence_link_ids": [
+        "evidence-reflection-hypothesis-meeting"
+      ],
+      "producing_interpretation_run_ids": [
+        "run-manual-baseline-interpretation"
+      ],
+      "selected_review_decision_id": "review-reflection-hypothesis-provisional"
+    }
+  ],
+  "bundle_type": "lineage-editor-context",
+  "derived_state_counts": {
+    "accepted": 2,
+    "ambiguous": 1,
+    "proposed": 13,
+    "provisional": 2,
+    "rejected": 0,
+    "superseded": 0
+  },
+  "evidence_links": [
+    {
+      "artifact_id": "artifact-log-trial-1",
+      "assertion_id": "assertion-baseline-decode-summary",
+      "id": "evidence-baseline-summary-log",
+      "locator": {
+        "end": 5,
+        "kind": "text-lines",
+        "start": 2
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-log-trial-1",
+      "assertion_id": "assertion-glare-failure-cooccurrence",
+      "id": "evidence-glare-cooccurrence-log",
+      "locator": {
+        "end": 5,
+        "kind": "text-lines",
+        "start": 2
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-image-baseline-glare",
+      "assertion_id": "assertion-glare-failure-cooccurrence",
+      "id": "evidence-glare-cooccurrence-schematic",
+      "locator": {
+        "kind": "file"
+      },
+      "polarity": "supports"
+    },
+    {
+      "artifact_id": "artifact-note-meeting",
+      "assertion_id": "assertion-reflection-hypothesis",
+      "id": "evidence-reflection-hypothesis-meeting",
+      "locator": {
+        "end": 2,
+        "kind": "text-lines",
+        "start": 1
+      },
+      "polarity": "supports"
+    }
+  ],
+  "format_version": "0.1",
+  "interpretation_runs": [
+    {
+      "id": "run-manual-baseline-interpretation",
+      "input_artifact_ids": [
+        "artifact-log-trial-1",
+        "artifact-image-baseline-glare"
+      ],
+      "method": "manual-domain-interpretation",
+      "output_assertion_ids": [
+        "assertion-baseline-decode-summary",
+        "assertion-glare-failure-cooccurrence",
+        "assertion-reflection-hypothesis",
+        "assertion-exposure-hypothesis"
+      ]
+    },
+    {
+      "id": "run-manual-trial-2-planning",
+      "input_artifact_ids": [
+        "artifact-note-meeting"
+      ],
+      "method": "manual-domain-interpretation",
+      "output_assertion_ids": [
+        "assertion-decision-test-filter-lock"
+      ]
+    }
+  ],
+  "project": {
+    "domain_id": "field-research",
+    "format_version": "0.1",
+    "project_id": "synthetic-underwater-qr-project",
+    "title": "Synthetic Underwater QR Visibility Trial"
+  },
+  "referenced_artifacts": [
+    {
+      "evidence_locators": [
+        {
+          "evidence_link_id": "evidence-glare-cooccurrence-schematic",
+          "locator": {
+            "kind": "file"
+          }
+        }
+      ],
+      "excerpts": [],
+      "id": "artifact-image-baseline-glare",
+      "media_type": "image/svg+xml",
+      "path": "artifacts/images/baseline_glare.svg",
+      "roles": [
+        "source-evidence",
+        "synthetic-schematic"
+      ],
+      "sha256": "9ceecf44639722be11dea06e578517f900bb158950bdba92b9ced02d0d584950"
+    },
+    {
+      "evidence_locators": [
+        {
+          "evidence_link_id": "evidence-baseline-summary-log",
+          "locator": {
+            "end": 5,
+            "kind": "text-lines",
+            "start": 2
+          }
+        },
+        {
+          "evidence_link_id": "evidence-glare-cooccurrence-log",
+          "locator": {
+            "end": 5,
+            "kind": "text-lines",
+            "start": 2
+          }
+        }
+      ],
+      "excerpts": [
+        {
+          "end": 5,
+          "evidence_link_id": "evidence-baseline-summary-log",
+          "kind": "text-lines",
+          "lines": [
+            "obs-b-001,trial-1-baseline,0,yes,failure,high,auto,strong reflection across code",
+            "obs-b-002,trial-1-baseline,10,yes,failure,high,auto,partial code edge visible",
+            "obs-b-003,trial-1-baseline,20,yes,success,medium,auto,brief stable angle",
+            "obs-b-004,trial-1-baseline,30,no,failure,high,auto,vehicle yaw moved code out of view"
+          ],
+          "start": 2
+        },
+        {
+          "end": 5,
+          "evidence_link_id": "evidence-glare-cooccurrence-log",
+          "kind": "text-lines",
+          "lines": [
+            "obs-b-001,trial-1-baseline,0,yes,failure,high,auto,strong reflection across code",
+            "obs-b-002,trial-1-baseline,10,yes,failure,high,auto,partial code edge visible",
+            "obs-b-003,trial-1-baseline,20,yes,success,medium,auto,brief stable angle",
+            "obs-b-004,trial-1-baseline,30,no,failure,high,auto,vehicle yaw moved code out of view"
+          ],
+          "start": 2
+        }
+      ],
+      "id": "artifact-log-trial-1",
+      "media_type": "text/csv",
+      "path": "artifacts/logs/trial_1_baseline.csv",
+      "roles": [
+        "source-evidence",
+        "observation-log"
+      ],
+      "sha256": "ca4ba9f1b4580eb9d4c7e4de8ea6852089bbc879ff8bd4249dc625630da42503"
+    },
+    {
+      "evidence_locators": [
+        {
+          "evidence_link_id": "evidence-reflection-hypothesis-meeting",
+          "locator": {
+            "end": 2,
+            "kind": "text-lines",
+            "start": 1
+          }
+        }
+      ],
+      "excerpts": [
+        {
+          "end": 2,
+          "evidence_link_id": "evidence-reflection-hypothesis-meeting",
+          "kind": "text-lines",
+          "lines": [
+            "The baseline log contains repeated decoding failures during high-glare observations.",
+            "The team proposes testing a polarizing filter in Trial 2."
+          ],
+          "start": 1
+        }
+      ],
+      "id": "artifact-note-meeting",
+      "media_type": "text/plain",
+      "path": "artifacts/production/meeting_note.txt",
+      "roles": [
+        "production-record",
+        "source-evidence"
+      ],
+      "sha256": "376227aa5261be47afa4d177c28ecd3b68429cbfdca5fdf6a2ddfb3fff36f0f8"
+    }
+  ],
+  "related_inactive_assertions": [],
+  "revision": {
+    "active_assertion_ids": [
+      "assertion-baseline-decode-summary",
+      "assertion-glare-failure-cooccurrence",
+      "assertion-reflection-hypothesis",
+      "assertion-decision-test-filter-lock"
+    ],
+    "assertion_revision_relation_ids": [],
+    "domain_id": "field-research",
+    "effective_review_decision_ids": [
+      "review-baseline-summary-accepted",
+      "review-glare-cooccurrence-accepted",
+      "review-reflection-hypothesis-provisional",
+      "review-exposure-hypothesis-ambiguous",
+      "review-trial-2-decision-provisional"
+    ],
+    "id": "fact-set-revision-1",
+    "previous_revision_id": null,
+    "project_id": "synthetic-underwater-qr-project"
+  },
+  "selected_assertion_revision_relations": [],
+  "selected_review_decisions": [
+    {
+      "assertion_id": "assertion-baseline-decode-summary",
+      "id": "review-baseline-summary-accepted",
+      "note": "Accepted as a bounded count from the synthetic baseline log.",
+      "outcome": "accepted",
+      "reviewer": "synthetic-fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-exposure-hypothesis",
+      "id": "review-exposure-hypothesis-ambiguous",
+      "note": "Preserved as a competing unresolved explanation.",
+      "outcome": "ambiguous",
+      "reviewer": "synthetic-fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-glare-failure-cooccurrence",
+      "id": "review-glare-cooccurrence-accepted",
+      "note": "Accepted as co-occurrence only, without causal attribution.",
+      "outcome": "accepted",
+      "reviewer": "synthetic-fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-reflection-hypothesis",
+      "id": "review-reflection-hypothesis-provisional",
+      "note": "Retained as a tentative explanation for the synthetic case.",
+      "outcome": "provisional",
+      "reviewer": "synthetic-fixture-reviewer",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "assertion_id": "assertion-decision-test-filter-lock",
+      "id": "review-trial-2-decision-provisional",
+      "note": "Provisional at the planning-stage revision.",
+      "outcome": "provisional",
+      "reviewer": "synthetic-fixture-reviewer",
+      "supersedes_review_decision_id": null
+    }
+  ]
+}

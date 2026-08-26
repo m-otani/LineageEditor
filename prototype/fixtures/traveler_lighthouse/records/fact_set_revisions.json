@@ -1,0 +1,98 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "fact-set-revision-1",
+      "project_id": "traveler-lighthouse-project",
+      "domain_id": "visual-narrative",
+      "previous_revision_id": null,
+      "effective_review_decision_ids": [
+        "review-project-accepted",
+        "review-route-a-accepted",
+        "review-route-b-provisional",
+        "review-branch-point-accepted",
+        "review-module-traveler-accepted",
+        "review-module-scarf-accepted",
+        "review-slot-held-item-accepted",
+        "review-slot-scarf-state-accepted",
+        "review-selected-artifact-accepted",
+        "review-umbrella-identity-rejected",
+        "review-umbrella-correction-accepted",
+        "review-scarf-ambiguity",
+        "review-weather-local-provisional"
+      ],
+      "assertion_revision_relation_ids": [
+        "assertion-revision-umbrella-correction"
+      ],
+      "active_assertion_ids": [
+        "assertion-project",
+        "assertion-route-a",
+        "assertion-route-b",
+        "assertion-branch-point-line-03",
+        "assertion-module-traveler",
+        "assertion-module-red-scarf",
+        "assertion-slot-held-item",
+        "assertion-slot-scarf-state",
+        "assertion-selected-line-03-artifact",
+        "assertion-umbrella-held-item-corrected",
+        "assertion-weather-local-v1"
+      ]
+    },
+    {
+      "id": "fact-set-revision-2",
+      "project_id": "traveler-lighthouse-project",
+      "domain_id": "visual-narrative",
+      "previous_revision_id": "fact-set-revision-1",
+      "effective_review_decision_ids": [
+        "review-project-accepted",
+        "review-route-a-accepted",
+        "review-branch-point-accepted",
+        "review-module-traveler-accepted",
+        "review-module-scarf-accepted",
+        "review-slot-held-item-accepted",
+        "review-slot-scarf-state-accepted",
+        "review-selected-artifact-accepted",
+        "review-umbrella-identity-rejected",
+        "review-umbrella-correction-accepted",
+        "review-scarf-ambiguity",
+        "review-weather-local-provisional",
+        "review-route-b-accepted",
+        "review-weather-domain-accepted",
+        "review-weather-binding-line-01-accepted",
+        "review-weather-binding-line-02-accepted",
+        "review-weather-binding-line-03-accepted",
+        "review-weather-binding-line-04-accepted",
+        "review-weather-binding-line-05-accepted",
+        "review-weather-binding-line-06-accepted",
+        "review-weather-binding-branch-b1-accepted",
+        "review-weather-binding-branch-b2-accepted"
+      ],
+      "assertion_revision_relation_ids": [
+        "assertion-revision-umbrella-correction",
+        "assertion-revision-weather-reinterpretation",
+        "assertion-revision-weather-supersession"
+      ],
+      "active_assertion_ids": [
+        "assertion-project",
+        "assertion-route-a",
+        "assertion-route-b",
+        "assertion-branch-point-line-03",
+        "assertion-module-traveler",
+        "assertion-module-red-scarf",
+        "assertion-slot-held-item",
+        "assertion-slot-scarf-state",
+        "assertion-selected-line-03-artifact",
+        "assertion-umbrella-held-item-corrected",
+        "assertion-weather-state-domain-v2",
+        "assertion-weather-binding-line-01-v2",
+        "assertion-weather-binding-line-02-v2",
+        "assertion-weather-binding-line-03-v2",
+        "assertion-weather-binding-line-04-v2",
+        "assertion-weather-binding-line-05-v2",
+        "assertion-weather-binding-line-06-v2",
+        "assertion-weather-binding-branch-b1-v2",
+        "assertion-weather-binding-branch-b2-v2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "artifact-derivation-revision",
+      "new_artifact_id": "artifact-derived-note",
+      "earlier_artifact_id": "artifact-source-note"
+    }
+  ]
+}

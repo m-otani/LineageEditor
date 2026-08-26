@@ -1,0 +1,93 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "review-baseline-summary-accepted",
+      "assertion_id": "assertion-baseline-decode-summary",
+      "outcome": "accepted",
+      "reviewer": "synthetic-fixture-reviewer",
+      "note": "Accepted as a bounded count from the synthetic baseline log.",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "id": "review-glare-cooccurrence-accepted",
+      "assertion_id": "assertion-glare-failure-cooccurrence",
+      "outcome": "accepted",
+      "reviewer": "synthetic-fixture-reviewer",
+      "note": "Accepted as co-occurrence only, without causal attribution.",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "id": "review-reflection-hypothesis-provisional",
+      "assertion_id": "assertion-reflection-hypothesis",
+      "outcome": "provisional",
+      "reviewer": "synthetic-fixture-reviewer",
+      "note": "Retained as a tentative explanation for the synthetic case.",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "id": "review-exposure-hypothesis-ambiguous",
+      "assertion_id": "assertion-exposure-hypothesis",
+      "outcome": "ambiguous",
+      "reviewer": "synthetic-fixture-reviewer",
+      "note": "Preserved as a competing unresolved explanation.",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "id": "review-trial-2-decision-provisional",
+      "assertion_id": "assertion-decision-test-filter-lock",
+      "outcome": "provisional",
+      "reviewer": "synthetic-fixture-reviewer",
+      "note": "Provisional at the planning-stage revision.",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "id": "review-trial-2-decision-accepted",
+      "assertion_id": "assertion-decision-test-filter-lock",
+      "outcome": "accepted",
+      "reviewer": "synthetic-fixture-reviewer",
+      "note": "Accepted in the later revision after the recorded action.",
+      "supersedes_review_decision_id": "review-trial-2-decision-provisional"
+    },
+    {
+      "id": "review-action-filter-lock-accepted",
+      "assertion_id": "assertion-action-filter-lock",
+      "outcome": "accepted",
+      "reviewer": "synthetic-fixture-reviewer",
+      "note": "Accepted as a record that both configuration changes occurred.",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "id": "review-outcome-comparison-accepted",
+      "assertion_id": "assertion-outcome-decode-comparison",
+      "outcome": "accepted",
+      "reviewer": "synthetic-fixture-reviewer",
+      "note": "Accepted as an observed comparison without causal interpretation.",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "id": "review-filter-causation-rejected",
+      "assertion_id": "assertion-filter-caused-improvement-overclaim",
+      "outcome": "rejected",
+      "reviewer": "synthetic-fixture-reviewer",
+      "note": "Rejected because filter use, exposure mode, and viewing conditions varied together.",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "id": "review-evaluation-noncausal-accepted",
+      "assertion_id": "assertion-evaluation-noncausal",
+      "outcome": "accepted",
+      "reviewer": "synthetic-fixture-reviewer",
+      "note": "Accepted as a bounded non-causal evaluation of the synthetic observations.",
+      "supersedes_review_decision_id": null
+    },
+    {
+      "id": "review-followup-decision-provisional",
+      "assertion_id": "assertion-decision-followup-factorial",
+      "outcome": "provisional",
+      "reviewer": "synthetic-fixture-reviewer",
+      "note": "Provisional future research decision; no follow-up trial is claimed.",
+      "supersedes_review_decision_id": null
+    }
+  ]
+}

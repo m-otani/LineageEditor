@@ -1,0 +1,42 @@
+{
+  "adapter_replay": {
+    "generated_assertion_count": 51,
+    "generated_interpretation_run_count": 8,
+    "status": "matched"
+  },
+  "domain_id": "visual-narrative",
+  "fixture_name": "traveler_lighthouse",
+  "format_version": "0.1",
+  "generated_files": [
+    {
+      "path": "comparisons/fact-set-revision-1__fact-set-revision-2.md",
+      "sha256": "693b06712ad376e3b58a24fe2f3081050da3b7585865978a74d68ec10d9648d1"
+    },
+    {
+      "path": "context/fact-set-revision-1.json",
+      "sha256": "d5a67e18e987bccdf8cfbc6393800d3a5ceb2dde20efa2a6a79ef18d495c1468"
+    },
+    {
+      "path": "context/fact-set-revision-2.json",
+      "sha256": "7d9ce04496793c46042e3a6b43c6ef1ee39d8c796aad9c163d68ab479c453bba"
+    },
+    {
+      "path": "revisions/fact-set-revision-1.md",
+      "sha256": "59f1c07088c1622dda2f5f5e32355fcae9d86b128425166d7328a7ea59ccee6c"
+    },
+    {
+      "path": "revisions/fact-set-revision-2.md",
+      "sha256": "b4a57f1ee2c0c559538dedceffd521e78ed2b6314c7114d6242ffe50550f7ec6"
+    },
+    {
+      "path": "summary.md",
+      "sha256": "7917d490ddea3be8d7bf1d7fe7174152d012925896714c9128ff15fd63c3cbdb"
+    }
+  ],
+  "project_id": "traveler-lighthouse-project",
+  "revision_ids": [
+    "fact-set-revision-1",
+    "fact-set-revision-2"
+  ],
+  "validation": "passed"
+}

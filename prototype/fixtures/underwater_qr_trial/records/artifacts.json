@@ -1,0 +1,86 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "artifact-log-trial-1",
+      "path": "artifacts/logs/trial_1_baseline.csv",
+      "sha256": "ca4ba9f1b4580eb9d4c7e4de8ea6852089bbc879ff8bd4249dc625630da42503",
+      "roles": [
+        "source-evidence",
+        "observation-log"
+      ],
+      "media_type": "text/csv"
+    },
+    {
+      "id": "artifact-log-trial-2",
+      "path": "artifacts/logs/trial_2_filter_lock.csv",
+      "sha256": "2a13a19d92fdcaa1cd69570af3d6fd794e304834b0339f9ad88e6588a78588cc",
+      "roles": [
+        "source-evidence",
+        "observation-log"
+      ],
+      "media_type": "text/csv"
+    },
+    {
+      "id": "artifact-image-baseline-glare",
+      "path": "artifacts/images/baseline_glare.svg",
+      "sha256": "9ceecf44639722be11dea06e578517f900bb158950bdba92b9ced02d0d584950",
+      "roles": [
+        "source-evidence",
+        "synthetic-schematic"
+      ],
+      "media_type": "image/svg+xml"
+    },
+    {
+      "id": "artifact-image-filter-lock",
+      "path": "artifacts/images/filter_lock_configuration.svg",
+      "sha256": "bc4abacbba500539dce6a17ba0f11378c4f211aefdbb707976d366595d4d9c0d",
+      "roles": [
+        "source-evidence",
+        "synthetic-schematic"
+      ],
+      "media_type": "image/svg+xml"
+    },
+    {
+      "id": "artifact-note-meeting",
+      "path": "artifacts/production/meeting_note.txt",
+      "sha256": "376227aa5261be47afa4d177c28ecd3b68429cbfdca5fdf6a2ddfb3fff36f0f8",
+      "roles": [
+        "production-record",
+        "source-evidence"
+      ],
+      "media_type": "text/plain"
+    },
+    {
+      "id": "artifact-note-equipment-change",
+      "path": "artifacts/production/equipment_change_log.txt",
+      "sha256": "a04fb63913e95412031b5c1d7b8bec3bceb6bcec6e5d7ac7110df45dab6233ec",
+      "roles": [
+        "production-record",
+        "source-evidence"
+      ],
+      "media_type": "text/plain"
+    },
+    {
+      "id": "artifact-note-review",
+      "path": "artifacts/production/review_note.txt",
+      "sha256": "d506e82858c507aa9aa88725be72bba1f0fb118b764ea65d368749cc726451ec",
+      "roles": [
+        "production-record",
+        "source-evidence"
+      ],
+      "media_type": "text/plain"
+    },
+    {
+      "id": "artifact-trial-2-summary",
+      "path": "artifacts/production/trial_2_summary.txt",
+      "sha256": "852daef2027e99b75bbf7a3b15756a9be549925d96e4cffb53e4fbd6433cce4c",
+      "roles": [
+        "production-record",
+        "generated-output",
+        "source-evidence"
+      ],
+      "media_type": "text/plain"
+    }
+  ]
+}

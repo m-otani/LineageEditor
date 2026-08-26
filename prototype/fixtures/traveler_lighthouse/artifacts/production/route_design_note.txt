@@ -1,0 +1,3 @@
+Route A contains line-01 through line-06 in sequence.
+Route B contains branch-b1 and branch-b2 as a shelter alternative.
+Route B branches from Route A at line-03.

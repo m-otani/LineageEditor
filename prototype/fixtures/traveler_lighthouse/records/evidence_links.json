@@ -1,0 +1,226 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "evidence-project-route-note",
+      "assertion_id": "assertion-project",
+      "artifact_id": "artifact-note-route-design",
+      "polarity": "supports",
+      "locator": {
+        "kind": "file"
+      }
+    },
+    {
+      "id": "evidence-route-a-note",
+      "assertion_id": "assertion-route-a",
+      "artifact_id": "artifact-note-route-design",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "evidence-route-b-note",
+      "assertion_id": "assertion-route-b",
+      "artifact_id": "artifact-note-route-design",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 2,
+        "end": 3
+      }
+    },
+    {
+      "id": "evidence-branch-point-note",
+      "assertion_id": "assertion-branch-point-line-03",
+      "artifact_id": "artifact-note-route-design",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "evidence-selected-note",
+      "assertion_id": "assertion-selected-line-03-artifact",
+      "artifact_id": "artifact-note-candidate-selection",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 1,
+        "end": 4
+      }
+    },
+    {
+      "id": "evidence-selected-svg",
+      "assertion_id": "assertion-selected-line-03-artifact",
+      "artifact_id": "artifact-line-03-selected",
+      "polarity": "supports",
+      "locator": {
+        "kind": "file"
+      }
+    },
+    {
+      "id": "evidence-umbrella-incorrect-candidate",
+      "assertion_id": "assertion-umbrella-identity-incorrect",
+      "artifact_id": "artifact-line-03-candidate-a",
+      "polarity": "supports",
+      "locator": {
+        "kind": "file"
+      }
+    },
+    {
+      "id": "evidence-umbrella-corrected-note",
+      "assertion_id": "assertion-umbrella-held-item-corrected",
+      "artifact_id": "artifact-note-candidate-selection",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 2,
+        "end": 3
+      }
+    },
+    {
+      "id": "evidence-umbrella-corrected-svg",
+      "assertion_id": "assertion-umbrella-held-item-corrected",
+      "artifact_id": "artifact-line-03-selected",
+      "polarity": "supports",
+      "locator": {
+        "kind": "file"
+      }
+    },
+    {
+      "id": "evidence-scarf-ambiguity-prompt",
+      "assertion_id": "assertion-scarf-state-ambiguity",
+      "artifact_id": "artifact-prompt-line-04",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "evidence-scarf-ambiguity-svg",
+      "assertion_id": "assertion-scarf-state-ambiguity",
+      "artifact_id": "artifact-image-line-04",
+      "polarity": "supports",
+      "locator": {
+        "kind": "file"
+      }
+    },
+    {
+      "id": "evidence-weather-local-note",
+      "assertion_id": "assertion-weather-local-v1",
+      "artifact_id": "artifact-note-structure-discovery",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "id": "evidence-weather-domain-note",
+      "assertion_id": "assertion-weather-state-domain-v2",
+      "artifact_id": "artifact-note-structure-discovery",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 1,
+        "end": 3
+      }
+    },
+    {
+      "id": "evidence-weather-binding-line-01",
+      "assertion_id": "assertion-weather-binding-line-01-v2",
+      "artifact_id": "artifact-prompt-line-01",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "evidence-weather-binding-line-02",
+      "assertion_id": "assertion-weather-binding-line-02-v2",
+      "artifact_id": "artifact-prompt-line-02",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "evidence-weather-binding-line-03",
+      "assertion_id": "assertion-weather-binding-line-03-v2",
+      "artifact_id": "artifact-prompt-line-03",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "evidence-weather-binding-line-04",
+      "assertion_id": "assertion-weather-binding-line-04-v2",
+      "artifact_id": "artifact-prompt-line-04",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "evidence-weather-binding-line-05",
+      "assertion_id": "assertion-weather-binding-line-05-v2",
+      "artifact_id": "artifact-prompt-line-05",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "evidence-weather-binding-line-06",
+      "assertion_id": "assertion-weather-binding-line-06-v2",
+      "artifact_id": "artifact-prompt-line-06",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "evidence-weather-binding-branch-b1",
+      "assertion_id": "assertion-weather-binding-branch-b1-v2",
+      "artifact_id": "artifact-prompt-branch-b1",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "evidence-weather-binding-branch-b2",
+      "assertion_id": "assertion-weather-binding-branch-b2-v2",
+      "artifact_id": "artifact-prompt-branch-b2",
+      "polarity": "supports",
+      "locator": {
+        "kind": "text-lines",
+        "start": 1,
+        "end": 1
+      }
+    }
+  ]
+}

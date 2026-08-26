@@ -1,0 +1,5 @@
+observation_id,trial_id,time_s,qr_visible,decode_result,glare_level,exposure_mode,note
+obs-f-001,trial-2-filter-lock,0,yes,success,low,locked,filter installed
+obs-f-002,trial-2-filter-lock,10,yes,success,low,locked,stable angle
+obs-f-003,trial-2-filter-lock,20,yes,failure,medium,locked,motion blur
+obs-f-004,trial-2-filter-lock,30,yes,success,low,locked,code centered

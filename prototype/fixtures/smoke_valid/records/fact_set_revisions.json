@@ -1,0 +1,43 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "fact-set-revision-1",
+      "project_id": "smoke-project",
+      "domain_id": "smoke-domain",
+      "previous_revision_id": null,
+      "effective_review_decision_ids": [
+        "review-initial-accepted",
+        "review-revised-provisional",
+        "review-rejected",
+        "review-ambiguous"
+      ],
+      "assertion_revision_relation_ids": [
+        "assertion-revision-lineage"
+      ],
+      "active_assertion_ids": [
+        "assertion-initial",
+        "assertion-revised"
+      ]
+    },
+    {
+      "id": "fact-set-revision-2",
+      "project_id": "smoke-project",
+      "domain_id": "smoke-domain",
+      "previous_revision_id": "fact-set-revision-1",
+      "effective_review_decision_ids": [
+        "review-initial-accepted",
+        "review-revised-accepted",
+        "review-rejected",
+        "review-ambiguous"
+      ],
+      "assertion_revision_relation_ids": [
+        "assertion-revision-lineage",
+        "assertion-revision-supersession"
+      ],
+      "active_assertion_ids": [
+        "assertion-revised"
+      ]
+    }
+  ]
+}

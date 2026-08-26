@@ -1,0 +1,30 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "assertion-initial",
+      "domain_type": "smoke.claim",
+      "statement": "The neutral source contains an initial claim."
+    },
+    {
+      "id": "assertion-revised",
+      "domain_type": "smoke.claim",
+      "statement": "A revised neutral claim remains source-linked."
+    },
+    {
+      "id": "assertion-rejected",
+      "domain_type": "smoke.claim",
+      "statement": "A candidate is preserved after rejection."
+    },
+    {
+      "id": "assertion-ambiguous",
+      "domain_type": "smoke.claim",
+      "statement": "A candidate remains ambiguous."
+    },
+    {
+      "id": "assertion-proposed",
+      "domain_type": "smoke.claim",
+      "statement": "An unreviewed candidate remains proposed."
+    }
+  ]
+}

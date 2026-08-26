@@ -1,0 +1,56 @@
+{
+  "format_version": "0.1",
+  "records": [
+    {
+      "id": "fact-set-revision-1",
+      "project_id": "synthetic-underwater-qr-project",
+      "domain_id": "field-research",
+      "previous_revision_id": null,
+      "effective_review_decision_ids": [
+        "review-baseline-summary-accepted",
+        "review-glare-cooccurrence-accepted",
+        "review-reflection-hypothesis-provisional",
+        "review-exposure-hypothesis-ambiguous",
+        "review-trial-2-decision-provisional"
+      ],
+      "assertion_revision_relation_ids": [],
+      "active_assertion_ids": [
+        "assertion-baseline-decode-summary",
+        "assertion-glare-failure-cooccurrence",
+        "assertion-reflection-hypothesis",
+        "assertion-decision-test-filter-lock"
+      ]
+    },
+    {
+      "id": "fact-set-revision-2",
+      "project_id": "synthetic-underwater-qr-project",
+      "domain_id": "field-research",
+      "previous_revision_id": "fact-set-revision-1",
+      "effective_review_decision_ids": [
+        "review-baseline-summary-accepted",
+        "review-glare-cooccurrence-accepted",
+        "review-reflection-hypothesis-provisional",
+        "review-exposure-hypothesis-ambiguous",
+        "review-trial-2-decision-accepted",
+        "review-action-filter-lock-accepted",
+        "review-outcome-comparison-accepted",
+        "review-filter-causation-rejected",
+        "review-evaluation-noncausal-accepted",
+        "review-followup-decision-provisional"
+      ],
+      "assertion_revision_relation_ids": [
+        "assertion-revision-causal-evaluation-correction"
+      ],
+      "active_assertion_ids": [
+        "assertion-baseline-decode-summary",
+        "assertion-glare-failure-cooccurrence",
+        "assertion-reflection-hypothesis",
+        "assertion-decision-test-filter-lock",
+        "assertion-action-filter-lock",
+        "assertion-outcome-decode-comparison",
+        "assertion-evaluation-noncausal",
+        "assertion-decision-followup-factorial"
+      ]
+    }
+  ]
+}
