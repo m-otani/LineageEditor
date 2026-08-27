@@ -6,9 +6,8 @@ LineageEditor v0.1 is a bounded research prototype prepared for external review
 and a later tagged release. It is research software, not a production-ready
 framework. All committed fixtures are synthetic and public-safe by design.
 
-No open-source license is included in this public staging tree. A release tag,
-archival record, and formal citation are intentionally deferred until after
-institutional confirmation and review.
+The repository is licensed under the MIT License. A release tag, archival
+record, and formal citation are intentionally deferred until after review.
 
 ## Conceptual Contract
 

@@ -23,7 +23,9 @@ The current research direction can be summarized as:
 ```text
 Research process
     -> Lineage representation
-    -> comparison between conditions
+    -> comparison between conditions / field states
+    -> semantic correspondence
+    -> dependency tracing
     -> change-impact analysis
     -> retain / modify / revalidate
     -> edited Lineage for a new condition or field
@@ -53,8 +55,8 @@ The current concept is organized around three questions. See
 - **RQ1 Reconstruction:** What should be recorded, and in what relationships,
   so that the basis of past research decisions can later be reconstructed?
 - **RQ2 Editing:** When conditions change, can prior knowledge, evidence, and
-  decisions be classified into what can be retained, modified, or requires
-  revalidation?
+  decisions be classified according to whether they can be retained, modified,
+  or require revalidation?
 - **RQ3 Adaptation / Transfer:** By editing Lineage based on RQ2, how far can
   prior knowledge and know-how be adapted to different conditions or field
   sites?
@@ -78,14 +80,10 @@ benchmarks.
 
 Preprint: in preparation. See [`paper/README.md`](paper/README.md).
 
-## License Status
+## License
 
-Open-source release is planned. The license is currently under institutional
-confirmation.
-
-Until a license is added, no open-source license is granted. Do not assume
-that code or other repository contents may be reused under an open-source
-license.
+LineageEditor is licensed under the MIT License.
+See [LICENSE](LICENSE).
 
 ## Scope and Non-Claims
 

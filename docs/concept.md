@@ -58,7 +58,8 @@ research decisions can later be reconstructed?
 ### RQ2: Editing
 
 When conditions change, can prior knowledge, evidence, and decisions be
-classified into what can be retained, modified, or requires revalidation?
+classified according to whether they can be retained, modified, or require
+revalidation?
 
 ### RQ3: Adaptation and Transfer
 

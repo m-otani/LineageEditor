@@ -55,7 +55,6 @@ The following remain research or future engineering work:
   controlled evaluation cases
 - determining suitable representations beyond the current bounded JSON format
 - preparing a technical preprint and future release metadata
-- confirming institutional conditions for an open-source license
 
 These are plans, not implemented features or commitments to a particular
 architecture.

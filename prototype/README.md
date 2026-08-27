@@ -193,5 +193,4 @@ documentation describes its scope and limitations; it adds no claim of a
 production feature set. A tagged release and formal citation remain
 post-review work.
 
-No open-source license is included in this public staging tree. See the
-repository-level README for the current licensing status.
+The repository is licensed under the [MIT License](../LICENSE).
